@@ -1,19 +1,180 @@
-.banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+.banner-principal__img
+  animation: scale 2s ease-in-out infinite alternate
+  @if $banner-principal-img-y == 'arriba'
+    align-self: flex-start
+    padding-bottom: 1.5rem
+    @media (min-width: $bp-min-sm)
+      padding-bottom: 3rem!important
+  @else if $banner-principal-img-y == 'abajo'
+    align-self: flex-end
+    padding-top: 1.5rem
+    @media (min-width: $bp-min-sm)
+      padding-top: 3rem!important
+  @else
+    align-self: center
+    padding-top: 1.5rem
+    padding-bottom: 1.5rem
+    @media (min-width: $bp-min-sm)
+      padding-top: 3rem!important
+      padding-bottom: 2rem!important
 
-
-@keyframes float1
+@keyframes scale
   0%
-    transform: translateY(20px)
-
+    transform: scale(1.1)
   100%
-    transform: translateY(0px)
+    transform: scale(1)
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/banner-interno.svg")!important
+
+// TAMAÑO IMAGENES //
+.img18
+   max-width: 18px !important
+.img30
+   max-width: 30px !important
+.img40
+  max-width: 40px !important
+.img50
+  max-width: 50px !important
+.img60
+  max-width: 60px !important
+.img70
+   max-width: 70px !important
+.img80
+   max-width: 80px !important
+.img90
+  max-width: 90px !important
+.img100
+  max-width: 100px !important
+.img120
+  max-width: 120px !important
+.img140
+  max-width: 140px !important
+.img160
+  max-width: 160px !important
+.img180
+  max-width: 180px !important
+.img200
+  max-width: 200px !important
+.img250
+  max-width: 250px !important
+.img300
+  max-width: 300px !important
+.img350
+  max-width: 350px !important
+.img400
+  max-width: 400px !important
+.img420
+  max-width: 420px !important
+.img450
+  max-width: 450px !important
+.img600
+  max-width: 600px !important
+.img700
+  max-width: 700px !important
+.img800
+  max-width: 800px !important
+.img900
+  max-width: 900px !important
+
+//BACKGROUND//
+.bgr
+  background-color: #E7F9FA
+  &_2
+    background-color: #0273BC
+  &_3
+    background-color: #CCE3F2
+    height: 100%
+  &_4
+    background-color: #E7F9FA
+    height: 100%
+  &_5
+    background-color: #E5F1F8
+  &_6
+    background-color: #E5F1F8
+    position: relative
+    border-right: solid 10px #0273BC
+    height: 275px
+    &::before
+      content: "";
+      display: block;
+      position: absolute;
+      right: -11px;
+      top: 50%;
+      width: 13px;
+      height: 13px;
+      transform: translate(5px,-50%) rotate(45deg);
+      background-color: #0273BC
+  &_7
+    background-color: #E5F1F8
+    position: relative
+    border-left: solid 10px #0273BC
+    height: 380px
+    &::before
+      content: "";
+      display: block;
+      position: absolute;
+      left: -22px;
+      top: 50%;
+      width: 13px;
+      height: 13px;
+      transform: translate(5px,-50%) rotate(45deg);
+      background-color: #0273BC
+  &_8
+    background-color: #E7F9FA
+    position: relative
+    border-right: solid 10px #13C6CC
+    height: 380px
+    &::before
+      content: "";
+      display: block;
+      position: absolute;
+      right: -11px;
+      top: 50%;
+      width: 13px;
+      height: 13px;
+      transform: translate(5px,-50%) rotate(45deg);
+      background-color: #13C6CC
+  &_9
+    background-color: #E7F9FA
+    position: relative
+    border-left: solid 10px #13C6CC
+    &::before
+      content: "";
+      display: block;
+      position: absolute;
+      left: -22px;
+      top: 50%;
+      width: 13px;
+      height: 13px;
+      transform: translate(5px,-50%) rotate(45deg);
+      background-color: #13C6CC
+  &_10
+    background-color: white
+//MODIFICAR CLASES//
+.modf
+  .tarjeta-avatar-b__img
+    min-width: 9%
+    max-width: 9%
+  .tarjeta
+    margin-left: -5%
+    padding-left: 4%
+//FONDOS COMPLETOS DE CONTENIDO//
+.bg_grad-01
+  position: relative
+  .slyder-f, figure, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 19%
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 53%
+    background: linear-gradient(0deg, rgba(231,249,250,1) 0%, rgba(255,255,255,1) 100%)
+
+//CLASES REEMPLAAZADAS//
+.horizontal-scroll
+  align-items: stretch !important
+.img-infografica.color-acento-botones .img-infografica__item__numero
+  color: $color-sistema-texto

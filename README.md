@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **CF8 - 331700 Mecánica Dental**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF8_Mecanica_Dental/](https://ecored-sena.github.io/CF8_Mecanica_Dental/)
 
 #
 
