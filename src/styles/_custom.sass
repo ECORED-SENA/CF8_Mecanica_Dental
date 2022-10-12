@@ -76,6 +76,18 @@
 .img900
   max-width: 900px !important
 
+//COLOR TEXTO//
+.clr
+  color: $color-sistema-texto !important
+  span
+    color: $color-sistema-texto !important
+  &_2
+    color: $color-primario !important
+  &_3
+    color: $color-acento-contenido
+  &_4
+    b
+      color: $color-primario !important 
 //BACKGROUND//
 .bgr
   background-color: #E7F9FA
@@ -150,14 +162,48 @@
       background-color: #13C6CC
   &_10
     background-color: white
-//MODIFICAR CLASES//
-.modf
-  .tarjeta-avatar-b__img
-    min-width: 9%
-    max-width: 9%
-  .tarjeta
-    margin-left: -5%
-    padding-left: 4%
+  &_11
+    background-image: url("../assets/curso/tema1/fondo1.svg")
+    background-repeat: no-repeat
+    background-size: cover
+  &_12
+    background-color: #88E2E5 !important
+    &::before  
+      background-color: #0273BC !important
+  &_13
+    background-color: #E5F1F8
+    &::before
+      background-color: #0273BC
+  &_14
+    background-color: #F6F6F6
+  &_15
+    background-image: url("../assets/curso/tema2/fondo1.svg")
+    background-repeat: no-repeat
+    background-size: cover
+  &_16
+    .tarjeta-flip__contenido
+      background-color: none
+      background-image: url("../assets/curso/tema3/fondo1.svg")
+      background-repeat: no-repeat
+      background-size: cover
+  &_17
+    background-color: #CCE9F9
+  &_18
+    background-color: #E5F1F8
+    &:hover
+      background-color: $color-primario
+      h1
+        color: white !important
+  &_19
+    background: linear-gradient(180deg, rgba(231,249,250,1) 0%, rgba(255,255,255,1) 100%)
+  &_20
+    background-color: #E7F9FA
+    &::before
+      background-color: #13C6CC
+  &_21
+    background-color: #0273BC
+    border-radius: 20px
+   
 //FONDOS COMPLETOS DE CONTENIDO//
 .bg_grad-01
   position: relative
@@ -172,9 +218,193 @@
     width: calc( 100% + 6rem)
     height: 53%
     background: linear-gradient(0deg, rgba(231,249,250,1) 0%, rgba(255,255,255,1) 100%)
+.bg_grad-02
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: -40px
+    left: 0
+    width: calc( 100% + 6rem)
+    height: calc( 100% + 4rem)
+    background-color: #E5F1F8
+.bg_grad-03
+  position: relative
+  i
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 
+    top: -6px
+    left: 0
+    width: 24px
+    height: 64%
+    background-color: #88E2E5
+.bg_grad-04
+  position: relative
+  .row, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 61%
+    background: linear-gradient(0deg, rgba(195,241,242,1) 0%, rgba(255,255,255,1) 100%)
+.bg_grad-05
+  position: relative
+  .row, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: -30px
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 70%
+    background: linear-gradient(90deg, rgba(229,241,248,1) 0%, rgba(255,255,255,1) 100%)
+.bg_grad-06
+  position: relative
+  .titulo-segundo, .row, p, figure
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: -30px
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 65%
+    background: linear-gradient(0deg, rgba(229,241,248,1) 0%, rgba(255,255,255,1) 100%)
+.bg_grad-07
+  position: relative
+  .tabla-a, .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 25%
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 78%
+    background: linear-gradient(180deg, rgba(231,249,250,1) 0%, rgba(255,255,255,1) 100%)
+.bg_grad-08
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -1rem
+    top: 0
+    left: 0
+    width: calc( 100% + 2rem)
+    height: 92%
+    background-color: #E5F1F8
+    border-radius: 10px
+//POSICION EN PANTALLA//}
+.pst
+  margin-top: 70px
+  &_2
+    top: 0 !important
+  &_3
+    position: absolute
+    width: 28px
+    top: -14px
+    left: 46%
+  &_4
+    top: 6px !important  
+    margin-right: 4px !important            
+//MODIFICAR CLASES//
+.modf
+  .tarjeta-avatar-b__img
+    min-width: 9%
+    max-width: 9%
+  .tarjeta
+    margin-left: -5%
+    padding-left: 4%
 
 //CLASES REEMPLAAZADAS//
 .horizontal-scroll
   align-items: stretch !important
 .img-infografica.color-acento-botones .img-infografica__item__numero
   color: $color-sistema-texto
+
+//LINEA DE TIEMPO C//
+.linea-tiempo-c__header__btn--right
+  background-color: #FFE000
+  border: 2px solid #FFE000
+.linea-tiempo-c__header__btn--left
+  background-color: #FFE000
+  border: 2px solid #FFE000
+.linea-tiempo-c__header__item__dot
+  background-color: white
+
+//TARJETAS-UP//
+.tarjetas-up
+  overflow: hidden
+  position: relative
+  &_card
+    transition: bottom .3s ease-in-out
+    position: absolute
+    width: 100%
+    height: 100%
+    left: 0
+    bottom: -76%
+    i:last-child
+      display: none
+  &:hover
+    .tarjetas-up_card
+      bottom: -25%
+    i:first-child
+      display: none
+    i:last-child
+      display: block
+///////////// CUSTOM LINEA DE TIEMPO D
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #E5F1F8 !important
+      color: $color-sistema-texto
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #E5F1F8
+
+/// non selected
+.linea-tiempo-d__item.row
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #F6F6F6
+    .linea-tiempo-d__item__dots:after
+      border-left: 4px dotted #adb8c2 !important
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #F6F6F6
+.bot
+  min-width: 30px
+  max-width: 30px
+  min-height: 30px
+  max-height: 30px
+  flex: auto
+  border-radius: 50%
+  border: 2px solid #FFE000
+  background-color: #FFE000
+  position: relative
+  cursor: pointer
+  transition: border-color 0.2s ease-in-out
+  i
+    position: absolute;
+    left: 50%;
+    top: 46%;
+    transform: translate(-45%, -45%);
+    font-size: 1.3em;
+    display: block;
+    line-height: 1em;

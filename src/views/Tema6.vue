@@ -21,7 +21,7 @@
           .col-4
             figure
               img(src='@/assets/curso/tema6/t6-2.svg', alt='Texto que describa la imagen')
-        p <b>Diseño</b> de la restauración lograda mediante un programa de computador..
+        p <b>Diseño</b> de la restauración lograda mediante un programa de computador.
       .col-md.tarjeta.bgr_5.p-5
         .row.justify-content-center.mb-4
           .col-4
