@@ -106,6 +106,8 @@
     position: relative
     border-right: solid 10px #0273BC
     height: 275px
+    @media (max-width:$bp-max-xs )
+      border: none
     &::before
       content: "";
       display: block;
@@ -116,11 +118,16 @@
       height: 13px;
       transform: translate(5px,-50%) rotate(45deg);
       background-color: #0273BC
+      @media (max-width:$bp-max-xs )
+        width: 0
+        
   &_7
     background-color: #E5F1F8
     position: relative
     border-left: solid 10px #0273BC
     height: 380px
+    @media (max-width:$bp-max-xs )
+      border: none
     &::before
       content: "";
       display: block;
@@ -131,11 +138,15 @@
       height: 13px;
       transform: translate(5px,-50%) rotate(45deg);
       background-color: #0273BC
+      @media (max-width:$bp-max-xs )
+        width: 0
   &_8
     background-color: #E7F9FA
     position: relative
     border-right: solid 10px #13C6CC
     height: 380px
+    @media (max-width:$bp-max-xs )
+      border: none
     &::before
       content: "";
       display: block;
@@ -146,10 +157,14 @@
       height: 13px;
       transform: translate(5px,-50%) rotate(45deg);
       background-color: #13C6CC
+      @media (max-width:$bp-max-xs )
+        width: 0
   &_9
     background-color: #E7F9FA
     position: relative
     border-left: solid 10px #13C6CC
+    @media (max-width:$bp-max-xs )
+      border: none
     &::before
       content: "";
       display: block;
@@ -160,6 +175,8 @@
       height: 13px;
       transform: translate(5px,-50%) rotate(45deg);
       background-color: #13C6CC
+      @media (max-width:$bp-max-xs )
+        width: 0
   &_10
     background-color: white
   &_11
@@ -272,6 +289,9 @@
     width: calc( 100% + 6rem)
     height: 70%
     background: linear-gradient(90deg, rgba(229,241,248,1) 0%, rgba(255,255,255,1) 100%)
+    @media (max-width: $bp-max-xs)
+      height: 84%
+      
 .bg_grad-06
   position: relative
   .titulo-segundo, .row, p, figure
@@ -361,11 +381,17 @@
     height: 100%
     left: 0
     bottom: -76%
+    @media (max-width: $bp-max-xl) and (min-width: $bp-min-lg)
+        bottom: -70%
+   
     i:last-child
       display: none
   &:hover
     .tarjetas-up_card
       bottom: -25%
+      @media (max-width: $bp-max-xl)
+        bottom: -2%
+        
     i:first-child
       display: none
     i:last-child

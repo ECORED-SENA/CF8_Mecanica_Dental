@@ -12,8 +12,8 @@
     .bg_grad-05
       .row.mb-5
         .col-12.col-lg-3
-          figure
-            img(src='@/assets/curso/tema3/t3-1.svg', alt='Texto que describa la imagen')
+          figure.d-flex.justify-content-center
+            img.img300(src='@/assets/curso/tema3/t3-1.svg', alt='Texto que describa la imagen')
         .col-12.col-lg-9
           p Los dientes perdidos deben reemplazarse, esto es cuando la zona sin dientes está en la parte anterior y más visible de la boca, pero es igual de importante cuando ocurre en el sector posterior, donde se ejercen las fuerzas de masticación. La pérdida de dientes puede acarrear importantes consecuencias estéticas, si se trata de piezas de la zona anterior o problemas digestivos y dificultades en la estabilización de la mandíbula, en el caso de las piezas molares. Las prótesis fijas suelen estar indicadas en:
           ul.lista-ul--color.mb-3
@@ -47,15 +47,15 @@
     
     separador
 
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.1 Dentosoportada
     
     p.mb-5 La prótesis parcial fija dentosoportada es una restauración protésica fija, que reemplaza uno o varios dientes y va soportada de los dientes pilares o remanentes. En el siguiente video se puede conocer más de esta prótesis:
 
-    figure
+    figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/X0Lx0AiAe6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
     p.mb-5 Las prótesis dentosoportadas se clasifican en dos puentes y coronas. Los puentes son un tipo de prótesis fija que sustituye una edentación de más de un diente, para ello se tallan los dientes vecinos a la edentación y se elaboran dos coronas en los dientes pilares que sostienen al diente que se quiere reemplazar. Toman como pilares los dientes adyacentes a la brecha edéntula (sin dientes). Estos puentes a su vez se clasifican en:
 
     .row.mb-5
@@ -144,19 +144,19 @@
     separador
 
     .bg_grad-06
-      .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 3.2 Implantosoporta
       
       p.mb-5 Es una restauración protésica fija, que reemplaza uno o varios dientes y va soportada de los implantes dentales. En el siguiente recurso se puede conocer más de esta prótesis: 
 
-      figure
+      figure.mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/8WY3E5u9HBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      
     p.mb-5 Existen dos tipos de implantes, estos son: 
 
     .tarjeta--container.row.mb-5
-      .col-md.tarjeta.bgr_5.p-5
+      .col-md.tarjeta.bgr_5.p-3.p-lg-5.mb-3.mb-lg-0
         .row.justify-content-center.mb-4
           .col-6
             figure
@@ -166,7 +166,7 @@
               li.mb-0 
                 i.fas.fa-circle.fa-xs.clr_2.pst_4
                 span.clr_4 <b>Implantes endostiales:</b> se implantan quirúrgicamente en forma directa en los huesos maxilares. Una vez que el tejido circundante ha cicatrizado, se requiere de una segunda cirugía para conectar un poste sobre el implante original. Finalmente, se coloca un diente artificial (o varios) sobre el poste. Los dientes serán individuales o estarán agrupados en un puente o prótesis fija.
-      .col-md.tarjeta.bgr.p-5
+      .col-md.tarjeta.bgr.p-3.p-lg-5
         .row.justify-content-center.mb-4
           .col-6
             figure
@@ -177,57 +177,58 @@
                 i.fas.fa-circle.fa-xs.clr_2.pst_4
                 span.clr_4 <b>Implante subperiosteal:</b> estos consisten en una especie de montura que se coloca en los huesos maxilares justo debajo de la encía. Con la cicatrización de las encías la montura se fija al hueso maxilar. Los postes que se colocan en la montura sobresalen a través de las encías. Al igual que con los implantes endostiales, los dientes artificiales se colocan sobre esos postes.
     
-    p.mb-5 Las ventajas de usar una prótesis implantosoportada se pueden observar en el siguiente recurso: 
+    p Las ventajas de usar una prótesis implantosoportada se pueden observar en el siguiente recurso: 
+    P.mb-5 Las prótesis implantosoportadas sobre implantes que brindan una estabilidad excepcional al comer y al hablar, y funcionan como los dientes naturales. Los beneficios de las prótesis proporcionadas  son que pueden ayudar a experimentar una mayor confianza y una mejor calidad de vida. 
 
     .row
-      .col-12.col-lg-7
+      .col-12.col-lg-7.mb-3.mb-lg-0
         LineaTiempoD.color-primario
-          .row(numero="1" titulo="Preservación del tejido óseo")
+          .row.justify-content-center(numero="1" titulo="Preservación del tejido óseo")
             .col-md-10.mb-4.mb-md-0
               p Este   tipo   de   prótesis   es   una   de   las   mejores   técnicas   de mantenimiento preventivo en odontología, debido a que actúan como dientes naturales, ayudan a la estimulación y crecimiento óseo. De esta manera mantiene el ancho y la altura ósea siempre que   la   rehabilitación   permanezca   en   buen   estado.   
-            .col-md-2.pe-0
+            .col-auto.col-md-2.pe-0
               figure
                 img(src='@/assets/curso/tema3/t3-13.svg', alt='Texto que describa la imagen')
-          .row(numero="2" titulo="Mejora la masticación")
+          .row.justify-content-center(numero="2" titulo="Mejora la masticación")
             .col-md-10.mb-4.mb-md-0
               p La   habilidad   de   actividad masticatoria mejora dramáticamente. Mientras que una prótesis removible es solo un 30 % tan eficiente como los dientes naturales, las prótesis implantosoportadas pueden alcanzar hasta un 90 % de la eficiencia natural masticatoria.   
-            .col-md-2.pe-0
+            .col-auto.col-md-2.pe-0
               figure
                 img(src='@/assets/curso/tema3/t3-14.svg', alt='Texto que describa la imagen')
-          .row(numero="3" titulo="Mejora la fonética")
+          .row.justify-content-center(numero="3" titulo="Mejora la fonética")
             .col-md-10.mb-4.mb-md-0
               p Al tener mayor estabilidad las restauraciones sobre implantes, no se producen alteraciones de los músculos masticatorios, ni de los que intervienen en la expresión facial, eliminando toda posibilidad de alteración en la fonética.  
-            .col-md-2.pe-0
+            .col-auto.col-md-2.pe-0
               figure
                 img(src='@/assets/curso/tema3/t3-15.svg', alt='Texto que describa la imagen')
-          .row(numero="4" titulo="Mejora la estética")
+          .row.justify-content-center(numero="4" titulo="Mejora la estética")
             .col-md-10.mb-4.mb-md-0
               p Se ven y se sienten como dientes naturales, es posible lograr una   morfología y  un  aspecto  facial óptimo  en   todos  los planos anatómicos.  
-            .col-md-2.pe-0
+            .col-auto.col-md-2.pe-0
               figure
                 img(src='@/assets/curso/tema3/t3-16.svg', alt='Texto que describa la imagen')
-          .row(numero="5" titulo="Durabilidad")
+          .row.justify-content-center(numero="5" titulo="Durabilidad")
             .col-md-10.mb-4.mb-md-0
               p Pueden durar muchos años con un buen mantenimiento, incluso toda la vida.   
-            .col-md-2.pe-0
+            .col-auto.col-md-2.pe-0
               figure
                 img(src='@/assets/curso/tema3/t3-17.svg', alt='Texto que describa la imagen')
-          .row(numero="6" titulo="Mejora la confianza")
+          .row.justify-content-center(numero="6" titulo="Mejora la confianza")
             .col-md-10.mb-4.mb-md-0
               p Una persona puede sentir plena confianza en que sus dientes no se moverán. Podrá realizar cualquier actividad regular sin ningún temor.   
-            .col-md-2.pe-0
+            .col-auto.col-md-2.pe-0
               figure
                 img(src='@/assets/curso/tema3/t3-18.svg', alt='Texto que describa la imagen')
-          .row(numero="7" titulo="Efecto psicológico positivo")
+          .row.justify-content-center(numero="7" titulo="Efecto psicológico positivo")
             .col-md-10.mb-4.mb-md-0
               p El hecho de no tener que quitarse la prótesis aumenta la confianza en sí mismo.   
-            .col-md-2.pe-0
+            .col-auto.col-md-2.pe-0
               figure
                 img(src='@/assets/curso/tema3/t3-19.svg', alt='Texto que describa la imagen')
-          .row(numero="8" titulo="Mayor comodidad y conveniencia")
+          .row.justify-content-center(numero="8" titulo="Mayor comodidad y conveniencia")
             .col-md-10.mb-4.mb-md-0
               p Las prótesis removibles convencionales pueden causar llagas debajo de la dentadura durante el proceso de adaptación del paciente, no hay riesgo de laceraciones y no requiere utilizar cremas de adhesión.   
-            .col-md-2.pe-0
+            .col-auto.col-md-2.pe-0
               figure
                 img(src='@/assets/curso/tema3/t3-20.svg', alt='Texto que describa la imagen')
       .col-12.col-lg-5

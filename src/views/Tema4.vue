@@ -22,36 +22,36 @@
     
     p.mb-5 Los perfiles de biocompatibilidad de las sustancias sintéticas (biomateriales) utilizadas para el reemplazo o aumento de tejidos biológicos siempre han sido una preocupación crítica dentro de las disciplinas de atención médica. Circunstancias especiales están asociadas con la reconstrucción protésica con implantes dentales de las áreas oral-maxilofacial, porque los dispositivos se extienden desde la boca a través de las zonas epiteliales protectoras y sobre o dentro del hueso subyacente. Los aspectos funcionales del uso también incluyen la transferencia de fuerza desde las superficies oclusales de los dientes, a través de la corona, el puente y la región del conector del cuello del implante hacia el implante para la transferencia interfacial a los tejidos blandos y duros de soporte. 
 
-    .row
-      .col-12.col-lg-4.pe-0
+    .row.bgr_17.p-4
+      .col-12.col-lg-4.pe-0.mb-3.mb-lg-0
         figure
           img(src='@/assets/curso/tema4/t4-2.png', alt='Texto que describa la imagen')
-      .col-12.col-lg-8.bgr_17.ps-0.d-flex.align-items-center
+      .col-12.col-lg-8.ps-0.d-flex.align-items-center
         div
           p Las propiedades físicas, mecánicas, químicas y eléctricas de los componentes del material básico siempre deben evaluarse completamente para cualquier aplicación de biomaterial, porque estas propiedades proporcionan información clave en los análisis biomecánicos y biológicos interrelacionados de la función. 
           p.mb-0 Los análisis de ingeniería de los sistemas de implantes incluyen consideraciones de optimización relacionadas tanto con el diseño como con el biomaterial utilizado para la constitución. Por lo tanto, el deseo de influir positivamente en las respuestas de los tejidos y minimizar la biodegradación a menudo impone restricciones sobre qué materiales se pueden usar de manera segura dentro de los entornos bucales y tisulares. A menudo se desarrollan diseños para biomateriales específicos, debido a las condiciones ambientales o de restauración impuestas.
     
     separador
 
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.1 Clasificación
     
     p.mb-5 Los biomateriales dentales son la base fundamental en los tratamientos restauradores, protésicos y de varias especialidades. Debido a las diversas composiciones de los materiales no existe una clasificación universal. La mayor parte de las clasificaciones se elaboran en función de las propiedades físicas, químicas, y del uso para el que están destinados. Se agrupan en cuatro tipos: los metales, los polímeros, las cerámicas y los composites dentales.
 
     .tarjeta--container.row
-      .col-md.tarjeta.bgr_5.p-5
+      .col-md.tarjeta.bgr_5.p-5.mb-3.mb-lg-0
         .row.justify-content-center.mb-4
           .col-4
             figure
               img(src='@/assets/curso/tema4/t4-3.svg', alt='Texto que describa la imagen')
         p <b>Metales:</b>  son utilizados en diferentes aplicaciones, pero destacan por ser con los que se fabrica la mayor parte de las estructuras de metal, tanto para prótesis fijas como para prótesis removibles. Completa este grupo la amalgama dental, que sigue indicada en algunos procedimientos de odontología conservadora.
-      .col-md.tarjeta.bgr.p-5
+      .col-md.tarjeta.bgr.p-5.mb-3.mb-lg-0
         .row.justify-content-center.mb-4
           .col-4
             figure
               img(src='@/assets/curso/tema4/t4-4.svg', alt='Texto que describa la imagen')
         p <b>Polímeros:</b> como la resina acrílica, muy utilizada como base de la prótesis, o los elastómeros, como las siliconas, tanto las de adición como las siliconas por condensación o las siliconas de mezcla automática. También forman parte de este grupo los polisulfuros o los poliéteres, que tienen una importante aplicación como materiales de impresión.
-      .col-md.tarjeta.bgr_5.p-5
+      .col-md.tarjeta.bgr_5.p-5.mb-3.mb-lg-0
         .row.justify-content-center.mb-4
           .col-4
             figure
@@ -60,7 +60,7 @@
     
     separador
 
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.2 Cerámicas
     
     p.mb-5 Son materiales inorgánicos, no metálicos, no poliméricos, fabricados por compactación y sinterización a temperaturas elevadas. Se pueden dividir en óxidos metálicos y otros compuestos. Se introdujeron las cerámicas de óxido para implantes quirúrgicos, debido a su inercia a la biodegradación, alta fuerza, a características físicas como el color y la mínima conductividad térmica y eléctrica, y una amplia gama de propiedades elásticas específicas del material. En muchos casos; sin embargo, la baja ductilidad o fragilidad inherente ha dado lugar a limitaciones. La cerámica se ha utilizado a granel y más recientemente, como recubrimientos en metales y aleaciones. 
@@ -156,7 +156,7 @@
             td Carillas, inlays, onlays, coronas parciales, coronas anteriores y posteriores
 
     .tarjeta--container.row
-      .col-md.tarjeta.bgr_5.p-5
+      .col-md.tarjeta.bgr_5.p-3.p-lg-5
         .row.justify-content-center.mb-4
           .col-6.mb-3
             figure
@@ -166,7 +166,7 @@
               li.mb-0 
                 i.fas.fa-circle.fa-xs.clr_2.pst_4
                 span.clr_4 <b>Propiedades químicas:</b> debido a que la cerámica está compuesta por óxidos, no es propensa a la oxidación, es resistente a la humedad, al agua de lluvia y a sustancias químicas del suelo, así mismo, resiste el ataque de ácidos minerales fuertes como el clorhídrico, sulfúrico y nítrico, y solos ácidos fluorhídrico y fosfórico la afectan, al igual que los álcalis corrosivos. Estas propiedades hacen de la cerámica un material indestructible, con una resistencia química extraordinariamente alta.
-      .col-md.tarjeta.bgr.p-5
+      .col-md.tarjeta.bgr.p-3.p-lg-5
         .row.justify-content-center.mb-4
           .col-6.mb-3
             figure
@@ -179,7 +179,7 @@
     
     separador
 
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.3 Metales
     
     .row.mb-5
@@ -201,19 +201,19 @@
 
       .row.justify-content-center.mb-5
         .col-12.col-lg-2
-          figure
-            img(src='@/assets/curso/tema4/t4-10.svg', alt='Texto que describa la imagen')
+          figure.d-flex.justify-content-center.mb-3.mb-lg-0
+            img.img180(src='@/assets/curso/tema4/t4-10.svg', alt='Texto que describa la imagen')
         .col-12.col-lg-8
          ul.lista-ul--color.mb-0
             li.mb-0 
               i.fas.fa-circle.fa-xs.clr_2.pst_4
               span #[strong Propiedades químicas:] el titanio es un metal que tiende a combinarse con el oxígeno, con el que forma una pátina de óxido, razón por la cual es tan resistente a la temperatura ambiente, a la corrosión, mediante el fenómeno conocido como pasivación, que protege  la masa del metal. De los óxidos de titanio que tienden a formarse, el que lo hace en mayor medida es el TiO2 y también el TiO y el Ti2O3. A altas temperaturas el titanio tiende a combinarse, no solo con el oxígeno, sino también con otros elementos como el nitrógeno, el hidrógeno y el carbono. Por ello, cuando se cuela en el laboratorio dental hay que hacerlo en atmósfera de gas inerte o en condiciones de vacío controlado. Otras propiedades químicas son: 
     .row.mb-5 
-      .col-12.col-lg-4
+      .col-12.col-lg-4.mb-3.mb-lg-0
         .bgr_3.h-100
           img(src='@/assets/curso/tema4/t4-11.png' alt='AvatarTop')
           p.mb-0.p-4 La capa de óxido que crece espontáneamente por estar en contacto con el aire es la responsable de las propiedades pasivas del titanio en su superficie, desde un punto de vista electroquímico. El hecho de que químicamente sea inerte, muy resistente a la corrosión y su habilidad para la repasivización casi instantánea del titanio y de la mayoría de sus aleaciones está directamente relacionada con la integridad estructural y propiedades químicas del óxido de titanio.
-      .col-12.col-lg-4
+      .col-12.col-lg-4.mb-3.mb-lg-0
         .bgr_3.h-100
           img(src='@/assets/curso/tema4/t4-12.png' alt='AvatarTop')
           p.mb-0.p-4 Los primeros eventos que tengan lugar después de introducir el dispositivo de titanio en el cuerpo del paciente es probable que sean una interacción entre la sangre y otros constituyentes del cuerpo que dependan en mayor medida de esa capa de óxido en su superficie, es decir, que la capa de óxido separa las diferentes partes del organismo del metal (extremadamente reactivo y definitivamente un cuerpo extraño para el organismo). Asimismo, esta capa se encarga de reducir la liberación y difusión de una pequeña cantidad de compuestos iónicos del metal.
@@ -223,9 +223,9 @@
           p.mb-0.p-4 Se ha comprobado que, cuando se recubren los implantes dentales de una capa de algún otro material como, por ejemplo, la hidroxiapatita, siempre hay una capa de óxido de titanio presente, lo cual asegura el éxito de la integración con la interfase metal-tejidos. 
           
     .row.justify-content-end.mb-5
-      .col-12.col-lg-2
-        figure
-          img(src='@/assets/curso/tema4/t4-14.svg', alt='Texto que describa la imagen')
+      .col-12.col-lg-2.mb-3.mb-lg-0
+        figure.d-flex.justify-content-center
+          img.img180(src='@/assets/curso/tema4/t4-14.svg', alt='Texto que describa la imagen')
       .col-12.col-lg-9
         ul.lista-ul--color.mb-0
           li.mb-0 
@@ -389,9 +389,6 @@
               | Se disuelve en ácido fluorhídrico, y en ácido hidroclórico y sulfúrico, sobre todo si hay presencia de fluoruros.
             li.mb-0 
               i.fas.fa-circle.fa-xs.clr_3.pst_4
-              | El zirconio es superconductor por debajo de los -272,6 °C. Sus aleaciones con zinc son magnéticas por debajo de los -238,75 °C. En especial, el ZrZn2 exhibe superconductividad y ferromagnetismo al mismo tiempo.
-            li.mb-0 
-              i.fas.fa-circle.fa-xs.clr_3.pst_4
               | Atómicamente está conformado por 40 electrones, 52 neutrones y 40 protones.
             li.mb-0 
               i.fas.fa-circle.fa-xs.clr_3.pst_4
@@ -407,7 +404,7 @@
     
     separador
 
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_4_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.4 Manipulación
     
     p.mb-5 Durante la elaboración de un dispositivo en cerámica es importante identificar el material solicitado por el profesional de  odontología, ya que de esto depende que el técnico pueda identificar los materiales y equipos con los que podrá desarrollar dicha actividad, partiendo de la información anterior durante la manipulación y mezcla de las cerámicas, por ejemplo, lo indicado es que se consiga una de consistencia espesa para ser aplicada generalmente con pincel. El exceso de líquido se elimina secando con un papel absorbente. El espesor del material puede variar dependiendo lógicamente de la anatomía dentaria.
@@ -419,7 +416,7 @@
     p.mb-5 Durante la manipulación de los materiales dentales es importante apoyarse en la información que proporcionan las fichas técnicas que los proveedores facilitan, para identificar no solo los tiempos de trabajo o de manipulación sino también por la adhesión mecánica que es producida por el contacto de la porcelana con una superficie texturizada (con microrugosidades) hechas por partículas de óxido de aluminio lanzadas desde un arenador. Además, el arenado elimina irregularidades superficiales que concentran estrés. Es un mecanismo que guarda mucha similitud con el sistema adhesivo en superficies dentales grabadas con ácido.
 
     .row.cajon.bgr_20.justify-content-center.p-4
-      .col-12.col-lg-3
+      .col-12.col-lg-3.mb-3.mb-lg-0
         figure
           img(src='@/assets/curso/tema4/t4-17.svg', alt='Texto que describa la imagen')
       .col-12.col-lg-7

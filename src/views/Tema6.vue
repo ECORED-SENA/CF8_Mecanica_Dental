@@ -10,13 +10,13 @@
     p.mb-5 En la actualidad, se dispone para la elaboración de coronas dentales no solo de forma analógica sino de muchos sistemas para hacer restauraciones indirectas libres de metal, la mayor actualidad y uso es el denominado CAD-CAM, cuyo diseño y elaboración es asistida por un computador. Para la elaboración de una restauración por este método se deben seguir tres fases: 
 
     .tarjeta--container.row.mb-5
-      .col-md.tarjeta.bgr_5.p-5
+      .col-md.tarjeta.bgr_5.p-5.mb-3.mb-lg-0
         .row.justify-content-center.mb-4
           .col-4
             figure
               img(src='@/assets/curso/tema6/t6-1.svg', alt='Texto que describa la imagen')
         p <b>Digitalización</b> de la preparación dental obtenida por medio de un escáner.
-      .col-md.tarjeta.bgr.p-5
+      .col-md.tarjeta.bgr.p-5.mb-3.mb-lg-0
         .row.justify-content-center.mb-4
           .col-4
             figure
@@ -32,7 +32,7 @@
     .row.justify-content-center.mb-3
       .col-auto.d-flex.align-items-center
         figure
-          img(src='@/assets/curso/tema6/puntos.svg', alt='Texto que describa la imagen')
+          img.d-none.d-lg-flex(src='@/assets/curso/tema6/puntos.svg', alt='Texto que describa la imagen')
       .col-12.col-lg-9
         p.mb-0 El lugar donde se hace la producción de las restauraciones determina el procedimiento y protocolo de su fabricación. Esta técnica combina la resistencia de los nuevos materiales cerámicos con la estética que ofrece, actualmente existe gran variedad de materiales que permiten ser maquinados. Están disponibles para este sistema desde cerámicas vítreas para restauraciones con contornos completos, hasta cerámicas cristalinas para estructuras.
     

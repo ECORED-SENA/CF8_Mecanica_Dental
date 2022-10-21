@@ -22,11 +22,11 @@
     
     separador
 
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.1 Principios de la prótesis fija
     
     .row.mb-5
-      .col-12.col-lg-7
+      .col-12.col-lg-7.mb-3.mb-lg-0
         span Cuando se ha perdido alguna pieza dental, varias o incluso una arcada completa, las prótesis son el tratamiento indicado para recuperar la funcionalidad total de la dentadura. Tradicionalmente se trataba de aparatos removibles, más o menos cómodos y discretos; sin embargo, el avance de las nuevas tecnologías y el uso de materiales biocompatibles han facilitado una solución mucho más avanzada: 
         span.clr_2.text-bold las prótesis dentales fijas.
         p.mt-3 Este tipo de prótesis suelen ir ancladas sobre implantes dentales al hueso mandibular, estos implantes sustituyen las raíces de los dientes y se fusionan con ellos. El resultado son piezas con el mismo aspecto y funcionalidad que las naturales, porque ni se mueven, ni se pueden quitar, salvo que sea un especialista quien lo haga.
@@ -98,12 +98,12 @@
           span Sistema PHIBO
         figure.mb-3
           img(src='@/assets/curso/tema2/t2-11.png', alt='Texto que describa la imagen')
-
+          figcaption Nota. Carrerelo (s.f.).
         p Se trata, además, de una tecnología para las rehabilitaciones protésicas que agiliza notablemente el proceso. De hecho, desde la toma de la imagen digital del paciente hasta que la pieza está lista para su colocación solo pasan unas horas. Permite utilizar cirugías menos invasivas y aumenta el porcentaje de éxito de los tratamientos.
 
     separador
 
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.2 Evolución de la prótesis fija
     
     p La especie humana ha padecido problemas dentales desde sus orígenes, ante los cuales ha ido buscando los más diversos remedios. Llama la atención cómo culturas tan alejadas y sin ninguna relación entre sí trataron de buscar una solución al edentulismo, lo que da una idea de la importancia que el hombre ha concedido desde los primeros tiempos a su dentadura. En la siguiente línea del tiempo se puede evidenciar esta evolución: 
@@ -197,29 +197,29 @@
     
     separador
 
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.3 Función de la prótesis fija
     
     p La prótesis fija está indicada básicamente para devolver la función masticatoria, además de la estética, la fonación, la deglución de las personas que al presentar ausencias dentales podría, incluso, presentar algún componente psicológico que afecte la autoestima del paciente, también contiene las siguientes características:
 
     .row.mb-3
-      .col-12.col-lg-4
+      .col-12.col-lg-4.mb-3.mb-lg-0
         figure
           img(src='@/assets/curso/tema2/t2-22.png', alt='Texto que describa la imagen')
-      .col-12.col-lg-4
-        .bgr.h-100.d-flex.align-items-center
-          .row
-            .col-12.col-lg-3.d-flex.align-items-center
-              figure
+      .col-12.col-lg-4.mb-3.mb-lg-0
+        .bgr.h-100.d-flex.align-items-center.p-4.p-lg-0
+          .row.justify-content-center
+            .col-auto.col-lg-3.d-flex.align-items-center
+              figur
                 img(src='@/assets/curso/tema2/t2-23.svg', alt='Texto que describa la imagen')
             .col-12.col-lg-9.d-flex.align-items-center
               div.pe-3.py-3
                 h4 La estética dental:
                 p.mb-0 Está relacionada con la armonía que se consigue a través del trabajo articulado entre el odontólogo y el laboratorista dental, donde se puede conseguir la restauración de los tejidos en cuanto a su tonicidad y dimensión vertical.
-      .col-12.col-lg-4
-        .bgr_5.h-100.d-flex.align-items-center
-          .row
-            .col-12.col-lg-3.d-flex.align-items-center
+      .col-12.col-lg-4.mb-3.mb-lg-0
+        .bgr_5.h-100.d-flex.align-items-center.p-4.p-lg-0
+          .row.justify-content-center
+            .col-auto.col-lg-3.d-flex.align-items-center
               figure
                 img(src='@/assets/curso/tema2/t2-24.svg', alt='Texto que describa la imagen')
             .col-12.col-lg-9.d-flex.align-items-center
@@ -228,20 +228,20 @@
                 p.mb-0 Como su nombre lo indica habla de devolver la función requerida al sistema estomatognático. 
     
     .row
-      .col-12.col-lg-4
-        .bgr.h-100.d-flex.align-items-center
-          .row
-            .col-12.col-lg-3.d-flex.align-items-center
+      .col-12.col-lg-4.mb-3.mb-lg-0
+        .bgr.h-100.d-flex.align-items-center.p-4.p-lg-0
+          .row.justify-content-center
+            .col-auto.col-lg-3.d-flex.align-items-center
               figure
                 img(src='@/assets/curso/tema2/t2-25.svg', alt='Texto que describa la imagen')
             .col-12.col-lg-9.d-flex.align-items-center
               div.pe-3.py-3
                 h4 La fonación:
                 p.mb-0 Si bien se sabe que la fonación humana es producida en la laringe, es importante recordar que una persona con ausencia de dientes podría variar la voz al momento de emitir sonidos.
-      .col-12.col-lg-4
-        .bgr_5.h-100.d-flex.align-items-center
-          .row
-            .col-12.col-lg-3.d-flex.align-items-center
+      .col-12.col-lg-4.mb-3.mb-lg-0
+        .bgr_5.h-100.d-flex.align-items-center.p-4.p-lg-0
+          .row.justify-content-center
+            .col-auto.col-lg-3.d-flex.align-items-center
               figure
                 img(src='@/assets/curso/tema2/t2-26.svg', alt='Texto que describa la imagen')
             .col-12.col-lg-9.d-flex.align-items-center
@@ -249,9 +249,9 @@
                 h4 La deglución:
                 p.mb-0 Cuando una persona presenta ausencia parcial o total de los dientes puede tener dificultades al momento de triturar los alimentos u otras sustancias que van de la boca al estómago. 
       .col-12.col-lg-4
-        .bgr.h-100.d-flex.align-items-center
-          .row
-            .col-12.col-lg-3.d-flex.align-items-center
+        .bgr.h-100.d-flex.align-items-center.p-4.p-lg-0
+          .row.justify-content-center
+            .col-auto.col-lg-3.d-flex.align-items-center
               figure
                 img(src='@/assets/curso/tema2/t2-27.svg', alt='Texto que describa la imagen')
             .col-12.col-lg-9.d-flex.align-items-center
@@ -261,14 +261,14 @@
 
     separador
 
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.4 Indicaciones y precauciones
     
     .bg_grad-04
       p.mb-5 Las prótesis fijas están indicadas en pacientes adultos, en los pacientes jóvenes es desaconsejable porque en el tallado natural es posible dañar la pulpa en los casos de dientes poco erupcionados. Algunas indicaciones de la prótesis fija son:
 
       .row.mb-5
-        .col-12.col-lg-3
+        .col-12.col-lg-3.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema2/t2-28.svg', alt='Texto que describa la imagen')
         .col-12.col-lg-9.d-flex.align-items-center

@@ -18,6 +18,12 @@
             .p-4
               p.mb-0 El <b>proceso alveolar (hueso alveolar)</b> incluye la cresta gruesa de hueso que contiene las cavidades del diente en los huesos de la mandíbula que sostienen los dientes. Los huesos que contienen dientes son el maxilar y la mandíbula. La porción curva de cada proceso alveolar en la mandíbula se denomina arco alveolar. En la siguiente infografía se presenta su función: 
     
+    ul.lista-ul--color
+      li.mb-0.bg_grad-03 
+        i.fas.fa-tooth.clr_2.ms-3.pst_2
+        h3.clr_2 Hueso alveolar
+
+    p El hueso alveolar, también llamado proceso alveolar, es la parte de la mandíbula que sostiene los dientes. El hueso sostiene las raíces de los dientes y los mantiene en su lugar. El hueso alveolar propiamente dicho es el área del hueso que entra en contacto directo con la raíz de un diente o el revestimiento del alvéolo. El hueso alveolar es un hueso duro y compacto y no un hueso blando y esponjoso. Cuando se coloca un implante dental entra en contacto directo con el hueso alveolar. 
     
     ImagenInfografica.color-acento-botones.mb-5
       template(v-slot:imagen)

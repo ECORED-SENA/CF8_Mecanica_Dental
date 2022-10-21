@@ -10,7 +10,7 @@
     p.mb-5 A partir de diciembre de 2021 en Colombia empieza a regir la normativa para los técnicos y los laboratorios dentales, a cargo del Instituto Nacional de Vigilancia de Medicamentos y Alimentos (INVIMA). La entidad que regula a nivel nacional es el Ministerio de Salud y Protección Social, a partir de sus facultades legales, en especial a las conferidas por los Artículos 245 de la Ley 100 de 1993,numeral 8 de la Ley 1618 de 2013, 1° parágrafo del Decreto 4725 de 2005 y el Artículo 45 de la Ley 1437 de 2011 en los que se menciona la información que se presenta en el siguiente recurso: 
   
     .row.mb-5.justify-content-center
-      .col-auto
+      .col-auto.mb-3.mb-lg-0
         figure
           img(src='@/assets/curso/tema1/t1-1.svg', alt='Texto que describa la imagen') 
       .col-12.col-lg-9
@@ -19,7 +19,7 @@
     
     AcordionA(tipo="b" clase-tarjeta="tarjeta bgr_11")
       .row(titulo="Decreto 4725 de 2005")
-        .col-lg-7.mb-4.mb-md-0.d-flex.align-items-center
+        .col-lg-7.mb-4.mb-lg-0.d-flex.align-items-center
           div
             p.mb-5 Se reglamenta el régimen de <b>registros sanitarios, permiso de comercialización y vigilancia sanitaria de los dispositivos médicos para uso humano y faculta a este Ministerio</b> establecer los requisitos que deberán cumplir los dispositivos médicos sobre medida, entre los cuales se encuentran los bucales, para su uso, prescripción, elaboración, adaptación y comercialización.
             .tarjeta.color-primario.p-3
@@ -80,14 +80,14 @@
 
     separador
 
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1 Lineamientos para su funcionamiento 
     
     p.mb-5 Los establecimientos interesados en fabricar y reparar los dispositivos médicos sobre medida bucal, una vez inscritos deberán solicitar la autorización de apertura y funcionamiento ante el INVIMA, quien verificará el cumplimiento de los requisitos sanitarios establecidos.
 
     .bg_grad-02
       .row.pst.mb-5
-        .col-12.col-lg-4
+        .col-12.col-lg-4.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema1/t1-7.png', alt='Texto que describa la imagen')
         .col-12.col-lg-8
@@ -120,7 +120,7 @@
     
     separador
     
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Equipamiento  
     
     p.mb-5 Dentro de las condiciones generales de las instalaciones es necesario tener en cuenta el nivel de equipamiento con el que cuenta cada laboratorio para identificar quiénes cuentan con la tecnología básica o la tecnología avanzada.
@@ -176,7 +176,7 @@
     
     separador
 
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.3 Equipamiento 
     
     p.mb-5 Los establecimientos deberán contar con un director técnico y con personal técnico, quienes deben hacer uso de los elementos de seguridad en el trabajo en concordancia con el Sistema de gestión de salud y seguridad en el trabajo. A continuación se mencionan los perfiles y las responsabilidades.
@@ -192,7 +192,7 @@
       .row.justify-content-center  
         .col-12.col-lg-8 
           .bgr_10.p-4
-            p Responsabilidades del director técnico:
+            p.text-bold Responsabilidades del director técnico:
             ul.lista-ul--color
               li.mb-0 
                 i.fas.fa-circle.fa-xs.clr_2
@@ -234,8 +234,8 @@
                 i.fas.fa-circle.fa-xs.clr_2
                 span Las demás propias de su actividad y que garanticen la calidad del dispositivo médico.
         .col-12.col-lg-2.d-flex.align-items-end
-          figure
-            img(src='@/assets/curso/tema1/t1-15.svg', alt='Texto que describa la imagen')
+          figure.d-flex.justify-content-center
+            img.img180(src='@/assets/curso/tema1/t1-15.svg', alt='Texto que describa la imagen')
 
       .row.justify-content-center
         .col-12.col-lg-10.mt-5
@@ -251,7 +251,7 @@
             img(src='@/assets/curso/tema1/t1-16.png', alt='Texto que describa la imagen')
         .col-12.col-lg-7 
           .bgr_10.p-4
-            p Responsabilidades del personal técnico:
+            p.text-bold Responsabilidades del personal técnico:
             ul.lista-ul--color.mb-0
               li.mb-0 
                 i.fas.fa-circle.fa-xs.clr_2
