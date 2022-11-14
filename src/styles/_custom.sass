@@ -105,8 +105,7 @@
     background-color: #E5F1F8
     position: relative
     border-right: solid 10px #0273BC
-    height: 275px
-    @media (max-width:$bp-max-xs )
+    @media (max-width:$bp-max-sm )
       border: none
     &::before
       content: "";
@@ -118,15 +117,13 @@
       height: 13px;
       transform: translate(5px,-50%) rotate(45deg);
       background-color: #0273BC
-      @media (max-width:$bp-max-xs )
+      @media (max-width:$bp-max-sm )
         width: 0
-        
   &_7
     background-color: #E5F1F8
     position: relative
     border-left: solid 10px #0273BC
-    height: 380px
-    @media (max-width:$bp-max-xs )
+    @media (max-width:$bp-max-sm )
       border: none
     &::before
       content: "";
@@ -138,14 +135,13 @@
       height: 13px;
       transform: translate(5px,-50%) rotate(45deg);
       background-color: #0273BC
-      @media (max-width:$bp-max-xs )
+      @media (max-width:$bp-max-sm )
         width: 0
   &_8
     background-color: #E7F9FA
     position: relative
     border-right: solid 10px #13C6CC
-    height: 380px
-    @media (max-width:$bp-max-xs )
+    @media (max-width:$bp-max-sm )
       border: none
     &::before
       content: "";
@@ -157,13 +153,13 @@
       height: 13px;
       transform: translate(5px,-50%) rotate(45deg);
       background-color: #13C6CC
-      @media (max-width:$bp-max-xs )
+      @media (max-width:$bp-max-sm )
         width: 0
   &_9
     background-color: #E7F9FA
     position: relative
     border-left: solid 10px #13C6CC
-    @media (max-width:$bp-max-xs )
+    @media (max-width:$bp-max-sm )
       border: none
     &::before
       content: "";
@@ -175,7 +171,7 @@
       height: 13px;
       transform: translate(5px,-50%) rotate(45deg);
       background-color: #13C6CC
-      @media (max-width:$bp-max-xs )
+      @media (max-width:$bp-max-sm )
         width: 0
   &_10
     background-color: white
@@ -222,6 +218,10 @@
     border-radius: 20px
   &_22
     background-color: #D9EAF5
+  &_23
+    background-color: #CCE3F2
+    border-bottom-left-radius: 20px
+    border-bottom-right-radius: 20px
    
 //FONDOS COMPLETOS DE CONTENIDO//
 .bg_grad-01
@@ -344,7 +344,9 @@
     left: 46%
   &_4
     top: 6px !important  
-    margin-right: 4px !important            
+    margin-right: 4px !important 
+  &_5
+    font-size: 0.5em           
 //MODIFICAR CLASES//
 .modf
   .tarjeta-avatar-b__img
@@ -382,7 +384,7 @@
     left: 0
     bottom: -76%
     @media (max-width: $bp-max-xl) and (min-width: $bp-min-lg)
-        bottom: -70%
+        bottom: -72%
    
     i:last-child
       display: none

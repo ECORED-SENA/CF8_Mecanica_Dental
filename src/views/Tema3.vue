@@ -11,34 +11,34 @@
 
     .bg_grad-05
       .row.mb-5
-        .col-12.col-lg-3
+        .col-12.col-lg-3.mb-3.mb-lg-0
           figure.d-flex.justify-content-center
-            img.img300(src='@/assets/curso/tema3/t3-1.svg', alt='Texto que describa la imagen')
+            img.w-auto(src='@/assets/curso/tema3/t3-1.svg', alt='Texto que describa la imagen')
         .col-12.col-lg-9
           p Los dientes perdidos deben reemplazarse, esto es cuando la zona sin dientes está en la parte anterior y más visible de la boca, pero es igual de importante cuando ocurre en el sector posterior, donde se ejercen las fuerzas de masticación. La pérdida de dientes puede acarrear importantes consecuencias estéticas, si se trata de piezas de la zona anterior o problemas digestivos y dificultades en la estabilización de la mandíbula, en el caso de las piezas molares. Las prótesis fijas suelen estar indicadas en:
           ul.lista-ul--color.mb-3
             li.mb-0 
-              i.fas.fa-circle.fa-xs.clr_3
+              i.fas.fa-circle.pst_5.clr_3
               span Reconstrucciones de dientes anteriores. La estética puede verse afectada con cambios de color y forma.
             li.mb-0 
-              i.fas.fa-circle.fa-xs.clr_3
+              i.fas.fa-circle.pst_5.clr_3
               span Reemplazo del punto de contacto protésico.
             li.mb-0 
-              i.fas.fa-circle.fa-xs.clr_3
+              i.fas.fa-circle.pst_5.clr_3
               span Ausencia parcial de dientes, con pilares lo suficientemente fuertes para soportar los dientes faltantes.
             li.mb-0 
-              i.fas.fa-circle.fa-xs.clr_3
+              i.fas.fa-circle.pst_5.clr_3
               span Después de una endodoncia, donde la estructura dental se ha visto afectada.
           p Las ventajas de una prótesis fija frente a una removible son:
           ul.lista-ul--color.mb-3
             li.mb-0 
-              i.fas.fa-circle.fa-xs.clr_3
+              i.fas.fa-circle.pst_5.clr_3
               span Mayor comodidad (sin necesidad de desmontarlos para limpiarlos).
             li.mb-0 
-              i.fas.fa-circle.fa-xs.clr_3
+              i.fas.fa-circle.pst_5.clr_3
               span Mayor agarre.
             li.mb-0 
-              i.fas.fa-circle.fa-xs.clr_3
+              i.fas.fa-circle.pst_5.clr_3
               span Mayor firmeza.
       
       figure
@@ -58,11 +58,11 @@
 
     p.mb-5 Las prótesis dentosoportadas se clasifican en dos puentes y coronas. Los puentes son un tipo de prótesis fija que sustituye una edentación de más de un diente, para ello se tallan los dientes vecinos a la edentación y se elaboran dos coronas en los dientes pilares que sostienen al diente que se quiere reemplazar. Toman como pilares los dientes adyacentes a la brecha edéntula (sin dientes). Estos puentes a su vez se clasifican en:
 
-    .row.mb-5
-      .col-lg-4.mb-3
+    .row.mb-5.justify-content-center
+      .col-md-7.col-lg-5.col-xl-4.mb-3
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
-          img(src='@/assets/curso/tema3/t3-2.png' alt='AvatarTop' style='width:400px')
+          img.w-auto(src='@/assets/curso/tema3/t3-2.png' alt='AvatarTop' style='w.h-100')
           .tarjetas-up_card.bgr_5.p-4
             .title.d-flex.align-items-center.mb-4
               .bot.me-3
@@ -70,7 +70,7 @@
                 i.fas.fa-angle-down.fa-lg.color-primario
               h4.mb-0 El puente dental fijo tradicional 
             p Es aquel en el cual el odontólogo talla los dientes adyacentes al espacio edéntulo para colocar coronas en dichos pilares y en su parte media colocar la o las coronas que sustituyen los dientes perdidos.
-      .col-lg-4.mb-3
+      .col-md-7.col-lg-5.col-xl-4.mb-3
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/tema3/t3-3.png' alt='AvatarTop' style='width:400px')
@@ -81,7 +81,7 @@
                 i.fas.fa-angle-down.fa-lg.color-primario
               h4.mb-0 El puente Maryland 
             p Es un tipo de puente dental fijo que sirve para sustituir la ausencia de una o dos piezas dentales en la boca de un paciente. Es una prótesis dental adhesiva, que se cementa en las caras posteriores de los dientes adyacentes al que se ha perdido.
-      .col-lg-4.mb-3
+      .col-md-7.col-lg-5.col-xl-4.mb-3
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           img(src='@/assets/curso/tema3/t3-4.png' alt='AvatarTop' style='width:400px')
@@ -102,7 +102,6 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/tema3/t3-5.png')})`}")
               .bgr.p-4.w-100.position-relative
-                img.pst_3(src='@/assets/curso/tema3/t3-9.svg', alt='Texto que describa la imagen')
                 h4.mb-0.text-center Coronas de metal-porcelana  
             .tarjeta-flip__contenido.p-4.p-xl-5
               h4 Coronas de metal-porcelana:
@@ -113,7 +112,6 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/tema3/t3-6.png')})`}")
               .bgr.p-4.w-100.position-relative
-                img.pst_3(src='@/assets/curso/tema3/t3-9.svg', alt='Texto que describa la imagen')
                 h4.mb-0.text-center Coronas de circonio 
             .tarjeta-flip__contenido.p-4.p-xl-5
               h4 Coronas de circonio:
@@ -124,7 +122,6 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/tema3/t3-7.png')})`}")
               .bgr.p-4.w-100.position-relative
-                img.pst_3(src='@/assets/curso/tema3/t3-9.svg', alt='Texto que describa la imagen')
                 h4.mb-0.text-center Coronas de porcelana  
             .tarjeta-flip__contenido.p-4.p-xl-5
               h4 Coronas de porcelana:
@@ -135,7 +132,6 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.d-flex.align-items-end(:style="{'background-image': `url(${require('@/assets/curso/tema3/t3-8.png')})`}")
               .bgr.p-4.w-100.position-relative
-                img.pst_3(src='@/assets/curso/tema3/t3-9.svg', alt='Texto que describa la imagen')
                 h4.mb-0.text-center Coronas de resina  
             .tarjeta-flip__contenido.p-4.p-xl-5
               h4 Coronas de resina:
@@ -156,7 +152,7 @@
     p.mb-5 Existen dos tipos de implantes, estos son: 
 
     .tarjeta--container.row.mb-5
-      .col-md.tarjeta.bgr_5.p-3.p-lg-5.mb-3.mb-lg-0
+      .col-md.tarjeta.bgr.h-100.p-3.p-lg-5.mb-3.mb-lg-0
         .row.justify-content-center.mb-4
           .col-6
             figure
@@ -164,9 +160,9 @@
           .col-10
             ul.lista-ul--color.mb-0
               li.mb-0 
-                i.fas.fa-circle.fa-xs.clr_2.pst_4
+                i.fas.fa-circle.pst_5.clr_2.pst_4
                 span.clr_4 <b>Implantes endostiales:</b> se implantan quirúrgicamente en forma directa en los huesos maxilares. Una vez que el tejido circundante ha cicatrizado, se requiere de una segunda cirugía para conectar un poste sobre el implante original. Finalmente, se coloca un diente artificial (o varios) sobre el poste. Los dientes serán individuales o estarán agrupados en un puente o prótesis fija.
-      .col-md.tarjeta.bgr.p-3.p-lg-5
+      .col-md.tarjeta.bgr_5.h-100.p-3.p-lg-5
         .row.justify-content-center.mb-4
           .col-6
             figure
@@ -174,7 +170,7 @@
           .col-10
             ul.lista-ul--color.mb-0
               li.mb-0 
-                i.fas.fa-circle.fa-xs.clr_2.pst_4
+                i.fas.fa-circle.pst_5.clr_2.pst_4
                 span.clr_4 <b>Implante subperiosteal:</b> estos consisten en una especie de montura que se coloca en los huesos maxilares justo debajo de la encía. Con la cicatrización de las encías la montura se fija al hueso maxilar. Los postes que se colocan en la montura sobresalen a través de las encías. Al igual que con los implantes endostiales, los dientes artificiales se colocan sobre esos postes.
     
     p Las ventajas de usar una prótesis implantosoportada se pueden observar en el siguiente recurso: 

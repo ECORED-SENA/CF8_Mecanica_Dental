@@ -34,7 +34,7 @@
           figure
             img(src='@/assets/curso/tema1/t1-2.png', alt='Texto que describa la imagen')
       .row(titulo="Ley 1618 de 2013")
-        .col-lg-7.mb-4.mb-md-0.d-flex.align-items-center
+        .col-lg-7.mb-4.mb-lg-0.d-flex.align-items-center
           div
             p.mb-5 <b>Artículo 9°</b> señaló que las personas con discapacidad tienen derecho a acceder a los procesos de <b>habilitación y rehabilitación integral</b>, respetando sus necesidades y posibilidades específicas, con el objetivo de lograr y mantener la máxima autonomía e independencia en su capacidad física, mental y vocacional, así como la inclusión y participación plena en todos los aspectos de la vida. 
             .tarjeta.color-primario.p-3
@@ -49,14 +49,14 @@
           figure
             img(src='@/assets/curso/tema1/t1-3.png', alt='Texto que describa la imagen')
       .row(titulo="Ley 1618 de 2013")
-        .col-lg-7.mb-4.mb-md-0.d-flex.align-items-center
+        .col-lg-7.mb-4.mb-lg-0.d-flex.align-items-center
           div
             p.mb-0 Dispuso regular la <b>dotación, fabricación, mantenimiento o distribución de prótesis</b>, y otras ayudas técnicas y tecnológicas, que suplan o compensen las deficiencias de las personas con discapacidad, sin ninguna exclusión, en aras de garantizar a la población el derecho a acceder a estos procedimientos, productos y tecnologías en mención.  
         .col-lg-5
           figure
             img(src='@/assets/curso/tema1/t1-4.png', alt='Texto que describa la imagen')
       .row(titulo="Resolución 2113 del 16 de diciembre de 2021")
-        .col-lg-7.mb-4.mb-md-0.d-flex.align-items-center
+        .col-lg-7.mb-4.mb-lg-0.d-flex.align-items-center
           div
             p.mb-5 Los requisitos sanitarios que deben cumplir los dispositivos médicos sobre medida bucal y los establecimientos que los fabrican, reparan, dispensan y adaptan, y se adoptan las guías de verificación, que tuvo en cuenta algunas definiciones de la literatura internacional en la materia como en las normas ISO, ACTM, ANSI, GMDN, la FDA y la Unión Europea, entre otras. 
             .tarjeta.color-primario.p-3
@@ -71,7 +71,7 @@
           figure
             img(src='@/assets/curso/tema1/t1-5.png', alt='Texto que describa la imagen')
       .row(titulo="Normatividad")
-        .col-lg-7.mb-4.mb-md-0.d-flex.align-items-center
+        .col-lg-7.mb-4.mb-lg-0.d-flex.align-items-center
           div
             p.mb-0 Esto parte del mejoramiento de la <b>calidad, oportunidad e integralidad</b> en la prestación de los servicios en el área de la salud oral; es importante la reglamentación que contenga las buenas prácticas de manufactura para la elaboración y reparación de los <b>dispositivos médicos</b> sobre medida bucal y los requisitos sanitarios para los establecimientos en donde se fabriquen y reparen estos.  
         .col-lg-5
@@ -88,34 +88,34 @@
     .bg_grad-02
       .row.pst.mb-5
         .col-12.col-lg-4.mb-3.mb-lg-0
-          figure
-            img(src='@/assets/curso/tema1/t1-7.png', alt='Texto que describa la imagen')
+          figure.d-flex.justify-content-center
+            img.w-auto(src='@/assets/curso/tema1/t1-7.png', alt='Texto que describa la imagen')
         .col-12.col-lg-8
           p.text-bold Los establecimientos que fabrican y reparan dispositivos médicos sobre medida bucal deben contar con los siguientes procedimientos generales y sus registros: 
           ul.lista-ul--color
             li 
-              i.fas.fa-circle.fa-xs.clr_2
+              i.fas.fa-circle.pst_5.clr_2
               span Procedimiento de recepción, limpieza y desinfección de modelos o impresiones y material enviado por el prestador de salud.
             li 
-              i.fas.fa-circle.fa-xs.clr_2
+              i.fas.fa-circle.pst_5.clr_2
               span Procedimiento de alistamiento y despacho del dispositivo médico terminado al odontólogo tratante.
             li 
-              i.fas.fa-circle.fa-xs.clr_2
+              i.fas.fa-circle.pst_5.clr_2
               | Procedimiento general para el manejo y el almacenamiento de materias primas y del dispositivo médico, que incluye recepción, calificación del estado de calidad y destino de las materias primas y del dispositivo médico terminado, y la eliminación de dispositivos que no cumplan con los requisitos de calidad.
             li 
-              i.fas.fa-circle.fa-xs.clr_2
+              i.fas.fa-circle.pst_5.clr_2
               | Procedimiento para la capacitación del personal y su evaluación periódica.
             li 
-              i.fas.fa-circle.fa-xs.clr_2
+              i.fas.fa-circle.pst_5.clr_2
               | Procedimiento relacionado con el aseo y la limpieza del establecimiento, control de plagas y roedores.
             li 
-              i.fas.fa-circle.fa-xs.clr_2
+              i.fas.fa-circle.pst_5.clr_2
               | Procedimiento para el manejo integral de los residuos sólidos y líquidos, cumpliendo con la normatividad vigente para la materia.
             li 
-              i.fas.fa-circle.fa-xs.clr_2
+              i.fas.fa-circle.pst_5.clr_2
               | Procedimiento para el mantenimiento preventivo de equipos, máquinas y herramientas.
             li 
-              i.fas.fa-circle.fa-xs.clr_2
+              i.fas.fa-circle.pst_5.clr_2
               | Procedimiento relacionado con el tratamiento de quejas, reclamos y notificaciones de eventos adversos acorde al programa de tecnovigilancia.
     
     separador
@@ -181,7 +181,7 @@
     
     p.mb-5 Los establecimientos deberán contar con un director técnico y con personal técnico, quienes deben hacer uso de los elementos de seguridad en el trabajo en concordancia con el Sistema de gestión de salud y seguridad en el trabajo. A continuación se mencionan los perfiles y las responsabilidades.
 
-    .bgr
+    .bgr.p-4.p-lg-0
       .row.justify-content-center
         .col-12.col-lg-10.mt-5
           ul.lista-ul--color
@@ -190,52 +190,52 @@
               h3.clr_2 Director técnico
           p Deberá acreditar como mínimo formación de tecnólogo en mecánica dental,  de técnico profesional en mecánica dental o de técnico laboral en mecánica dental, con experiencia de tres años en la fabricación y la reparación de dispositivos médicos sobre medida bucal obtenida dentro de un establecimiento de mecánica dental.
       .row.justify-content-center  
-        .col-12.col-lg-8 
+        .col-12.col-lg-8.mb-3.mb-lg-0
           .bgr_10.p-4
             p.text-bold Responsabilidades del director técnico:
             ul.lista-ul--color
               li.mb-0 
-                i.fas.fa-circle.fa-xs.clr_2
+                i.fas.fa-circle.pst_5.clr_2
                 span Aprobar la ficha técnica del producto.
               li.mb-0 
-                i.fas.fa-circle.fa-xs.clr_2
+                i.fas.fa-circle.pst_5.clr_2
                 span Dar información requerida por la autoridad sanitaria competente.
               li.mb-0 
-                i.fas.fa-circle.fa-xs.clr_2
+                i.fas.fa-circle.pst_5.clr_2
                 span Elaborar y verificar el cumplimiento del proceso, procedimientos generales y específicos según líneas de fabricación.
               li.mb-0 
-                i.fas.fa-circle.fa-xs.clr_2
+                i.fas.fa-circle.pst_5.clr_2
                 span Garantizar que los equipos para la fabricación y la reparación de dispositivos médicos sobre medida bucal se encuentren en buen estado, se utilicen de manera adecuada, tengan mantenimiento y cuando sea el caso estén calibrados, monitoreando y gestionando a partir del récord de las hojas de vida.
               li.mb-0 
-                i.fas.fa-circle.fa-xs.clr_2
+                i.fas.fa-circle.pst_5.clr_2
                 span Seleccionar y autorizar las materias primas.
               li.mb-0 
-                i.fas.fa-circle.fa-xs.clr_2
+                i.fas.fa-circle.pst_5.clr_2
                 span Garantizar el correcto almacenamiento de los dispositivos médicos terminados y de las materias primas.
               li.mb-0 
-                i.fas.fa-circle.fa-xs.clr_2
+                i.fas.fa-circle.pst_5.clr_2
                 span Responder ante la documentación técnica generada, la cual debe ser válida y estar completa.
               li.mb-0 
-                i.fas.fa-circle.fa-xs.clr_2
+                i.fas.fa-circle.pst_5.clr_2
                 span Garantizar que la información del dispositivo médico sobre medida bucal para la trazabilidad esté completa, entre otros, que se adjunte la copia del registro de verificación del estado del dispositivo médico, realizada por el odontólogo tratante en el control del paciente postadaptación.
               li.mb-0 
-                i.fas.fa-circle.fa-xs.clr_2
+                i.fas.fa-circle.pst_5.clr_2
                 span Realizar el control de calidad del dispositivo médico durante la fabricación y la reparación, teniendo en cuenta los puntos críticos según la línea de fabricación.
               li.mb-0 
-                i.fas.fa-circle.fa-xs.clr_2
+                i.fas.fa-circle.pst_5.clr_2
                 span Realizar el control de calidad de los productos proveídos por terceros.
               li.mb-0 
-                i.fas.fa-circle.fa-xs.clr_2
+                i.fas.fa-circle.pst_5.clr_2
                 span Auditar las actividades de los terceros contratados para proveer productos o servicios.
               li.mb-0 
-                i.fas.fa-circle.fa-xs.clr_2
+                i.fas.fa-circle.pst_5.clr_2
                 span Emitir concepto de calidad y autorizar la salida al dispositivo médico terminado del área de fabricación para el despacho al odontólogo tratante.
               li.mb-0 
-                i.fas.fa-circle.fa-xs.clr_2
+                i.fas.fa-circle.pst_5.clr_2
                 span Las demás propias de su actividad y que garanticen la calidad del dispositivo médico.
         .col-12.col-lg-2.d-flex.align-items-end
           figure.d-flex.justify-content-center
-            img.img180(src='@/assets/curso/tema1/t1-15.svg', alt='Texto que describa la imagen')
+            img.w-auto(src='@/assets/curso/tema1/t1-15.svg', alt='Texto que describa la imagen')
 
       .row.justify-content-center
         .col-12.col-lg-10.mt-5
@@ -246,27 +246,27 @@
           p Técnico en mecánica dental quien participa en la fabricación del dispositivo médico, siguiendo procedimientos establecidos para el proceso de fabricación y bajo la supervisión del director técnico. 
       
       .row.justify-content-center
-        .col-12.col-lg-3
-          figure
-            img(src='@/assets/curso/tema1/t1-16.png', alt='Texto que describa la imagen')
-        .col-12.col-lg-7 
-          .bgr_10.p-4
+        .col-12.col-lg-3.mb-3.mb-lg-0
+          figure.d-flex.justify-content-center
+            img.w-auto(src='@/assets/curso/tema1/t1-16.png', alt='Texto que describa la imagen')
+        .col-12.col-lg-7.mb-3.mb-lg-0 
+          .bgr_10.p-4.mb-5
             p.text-bold Responsabilidades del personal técnico:
             ul.lista-ul--color.mb-0
               li.mb-0 
-                i.fas.fa-circle.fa-xs.clr_2
+                i.fas.fa-circle.pst_5.clr_2
                 span Ejecutar los procedimientos establecidos bajo la supervisión del director técnico para la fabricación y la reparación de los dispositivos médicos sobre medida bucal.
               li.mb-0 
-                i.fas.fa-circle.fa-xs.clr_2
+                i.fas.fa-circle.pst_5.clr_2
                 span Responder por el cuidado y uso racional de materias primas, cuidado de las máquinas, los equipos, las herramientas e instrumentos dados para realizar su labor.
               li.mb-0 
-                i.fas.fa-circle.fa-xs.clr_2
+                i.fas.fa-circle.pst_5.clr_2
                 span Informar al director técnico oportunamente acerca de los desperfectos de las máquinas, de los equipos de medición, de las herramientas e instrumentos.
               li.mb-0 
-                i.fas.fa-circle.fa-xs.clr_2
+                i.fas.fa-circle.pst_5.clr_2
                 span Hacer uso de los elementos de seguridad en el trabajo en concordancia al Sistema de gestión de salud y seguridad en el trabajo.
               li.mb-0 
-                i.fas.fa-circle.fa-xs.clr_2
+                i.fas.fa-circle.pst_5.clr_2
                 span Las demás, propias de su actividad y que garanticen la calidad del dispositivo médico.
             
 

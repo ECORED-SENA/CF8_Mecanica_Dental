@@ -13,8 +13,8 @@
 
     .row.bgr
       .col-12.col-lg-5
-        figure
-          img(src='@/assets/curso/tema8/t8-1.png', alt='Texto que describa la imagen')
+        figure.d-flex.justify-content-center.mb-3
+          img.w-auto(src='@/assets/curso/tema8/t8-1.png', alt='Texto que describa la imagen')
       .col-12.col-lg-6.pt-5
         ol.lista-ol--cuadro
           li 

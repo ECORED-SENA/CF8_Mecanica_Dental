@@ -39,19 +39,19 @@
     p.mb-5 Los biomateriales dentales son la base fundamental en los tratamientos restauradores, protésicos y de varias especialidades. Debido a las diversas composiciones de los materiales no existe una clasificación universal. La mayor parte de las clasificaciones se elaboran en función de las propiedades físicas, químicas, y del uso para el que están destinados. Se agrupan en cuatro tipos: los metales, los polímeros, las cerámicas y los composites dentales.
 
     .tarjeta--container.row
-      .col-md.tarjeta.bgr_5.p-5.mb-3.mb-lg-0
+      .col-md.tarjeta.bgr_5.p-3.p-lg-5.mb-3.mb-lg-0
         .row.justify-content-center.mb-4
           .col-4
             figure
               img(src='@/assets/curso/tema4/t4-3.svg', alt='Texto que describa la imagen')
         p <b>Metales:</b>  son utilizados en diferentes aplicaciones, pero destacan por ser con los que se fabrica la mayor parte de las estructuras de metal, tanto para prótesis fijas como para prótesis removibles. Completa este grupo la amalgama dental, que sigue indicada en algunos procedimientos de odontología conservadora.
-      .col-md.tarjeta.bgr.p-5.mb-3.mb-lg-0
+      .col-md.tarjeta.bgr.p-3.p-lg-5.mb-3.mb-lg-0
         .row.justify-content-center.mb-4
           .col-4
             figure
               img(src='@/assets/curso/tema4/t4-4.svg', alt='Texto que describa la imagen')
         p <b>Polímeros:</b> como la resina acrílica, muy utilizada como base de la prótesis, o los elastómeros, como las siliconas, tanto las de adición como las siliconas por condensación o las siliconas de mezcla automática. También forman parte de este grupo los polisulfuros o los poliéteres, que tienen una importante aplicación como materiales de impresión.
-      .col-md.tarjeta.bgr_5.p-5.mb-3.mb-lg-0
+      .col-md.tarjeta.bgr_5.p-3.p-lg-5.mb-3.mb-lg-0
         .row.justify-content-center.mb-4
           .col-4
             figure
@@ -65,7 +65,7 @@
     
     p.mb-5 Son materiales inorgánicos, no metálicos, no poliméricos, fabricados por compactación y sinterización a temperaturas elevadas. Se pueden dividir en óxidos metálicos y otros compuestos. Se introdujeron las cerámicas de óxido para implantes quirúrgicos, debido a su inercia a la biodegradación, alta fuerza, a características físicas como el color y la mínima conductividad térmica y eléctrica, y una amplia gama de propiedades elásticas específicas del material. En muchos casos; sin embargo, la baja ductilidad o fragilidad inherente ha dado lugar a limitaciones. La cerámica se ha utilizado a granel y más recientemente, como recubrimientos en metales y aleaciones. 
 
-    .bgr_19
+    .bgr_19.p-4.p-lg-0
       .row.justify-content-center
         .col-12.col-lg-10.mt-5
           ul.lista-ul--color
@@ -156,7 +156,7 @@
             td Carillas, inlays, onlays, coronas parciales, coronas anteriores y posteriores
 
     .tarjeta--container.row
-      .col-md.tarjeta.bgr_5.p-3.p-lg-5
+      .col-md.tarjeta.bgr.p-3.p-lg-5
         .row.justify-content-center.mb-4
           .col-6.mb-3
             figure
@@ -164,9 +164,9 @@
           .col-10
             ul.lista-ul--color.mb-0
               li.mb-0 
-                i.fas.fa-circle.fa-xs.clr_2.pst_4
+                i.fas.fa-circle.pst_5.clr_2.pst_4
                 span.clr_4 <b>Propiedades químicas:</b> debido a que la cerámica está compuesta por óxidos, no es propensa a la oxidación, es resistente a la humedad, al agua de lluvia y a sustancias químicas del suelo, así mismo, resiste el ataque de ácidos minerales fuertes como el clorhídrico, sulfúrico y nítrico, y solos ácidos fluorhídrico y fosfórico la afectan, al igual que los álcalis corrosivos. Estas propiedades hacen de la cerámica un material indestructible, con una resistencia química extraordinariamente alta.
-      .col-md.tarjeta.bgr.p-3.p-lg-5
+      .col-md.tarjeta.bgr_5.p-3.p-lg-5
         .row.justify-content-center.mb-4
           .col-6.mb-3
             figure
@@ -174,7 +174,7 @@
           .col-10
             ul.lista-ul--color.mb-0
               li.mb-0 
-                i.fas.fa-circle.fa-xs.clr_2.pst_4
+                i.fas.fa-circle.pst_5.clr_2.pst_4
                 span.clr_4 <b>Propiedades mecánicas:</b> son de mayor relevancia clínica, corresponden al módulo de elasticidad (módulo elástico), Ia resistencia a Ia deformación (o límite elástico o proporcional), la dureza y la deformación o distorsión a temperaturas elevadas. La máxima resistencia a Ia tracción, la ductilidad y Ia rigidez se deben tener en cuenta, aunque estas propiedades tienen menos relevancia para las restauraciones de metal-porcelana. Excepto la dureza (y la deformación a altas temperaturas o distorsión), todas estas propiedades mecánicas pueden determinarse mediante una prueba de tensión realizada a temperatura ambiente con una muestra de Ia aleación sometida a tensión. Al escoger una aleación compatible con la porcelana es vital tener en cuenta la propiedad física de la contracción térmica. 
     
     separador
@@ -190,7 +190,7 @@
         figure
           img(src='@/assets/curso/tema4/t4-9.png', alt='Texto que describa la imagen')
         
-    .bgr_19
+    .bgr_19.p-5.p-lg-0
       .row.justify-content-center
         .col-12.col-lg-10.mt-5
           ul.lista-ul--color
@@ -206,19 +206,19 @@
         .col-12.col-lg-8
          ul.lista-ul--color.mb-0
             li.mb-0 
-              i.fas.fa-circle.fa-xs.clr_2.pst_4
+              i.fas.fa-circle.pst_5.clr_2.pst_4
               span #[strong Propiedades químicas:] el titanio es un metal que tiende a combinarse con el oxígeno, con el que forma una pátina de óxido, razón por la cual es tan resistente a la temperatura ambiente, a la corrosión, mediante el fenómeno conocido como pasivación, que protege  la masa del metal. De los óxidos de titanio que tienden a formarse, el que lo hace en mayor medida es el TiO2 y también el TiO y el Ti2O3. A altas temperaturas el titanio tiende a combinarse, no solo con el oxígeno, sino también con otros elementos como el nitrógeno, el hidrógeno y el carbono. Por ello, cuando se cuela en el laboratorio dental hay que hacerlo en atmósfera de gas inerte o en condiciones de vacío controlado. Otras propiedades químicas son: 
     .row.mb-5 
       .col-12.col-lg-4.mb-3.mb-lg-0
-        .bgr_3.h-100
+        .bgr_23.h-100
           img(src='@/assets/curso/tema4/t4-11.png' alt='AvatarTop')
           p.mb-0.p-4 La capa de óxido que crece espontáneamente por estar en contacto con el aire es la responsable de las propiedades pasivas del titanio en su superficie, desde un punto de vista electroquímico. El hecho de que químicamente sea inerte, muy resistente a la corrosión y su habilidad para la repasivización casi instantánea del titanio y de la mayoría de sus aleaciones está directamente relacionada con la integridad estructural y propiedades químicas del óxido de titanio.
       .col-12.col-lg-4.mb-3.mb-lg-0
-        .bgr_3.h-100
+        .bgr_23.h-100
           img(src='@/assets/curso/tema4/t4-12.png' alt='AvatarTop')
           p.mb-0.p-4 Los primeros eventos que tengan lugar después de introducir el dispositivo de titanio en el cuerpo del paciente es probable que sean una interacción entre la sangre y otros constituyentes del cuerpo que dependan en mayor medida de esa capa de óxido en su superficie, es decir, que la capa de óxido separa las diferentes partes del organismo del metal (extremadamente reactivo y definitivamente un cuerpo extraño para el organismo). Asimismo, esta capa se encarga de reducir la liberación y difusión de una pequeña cantidad de compuestos iónicos del metal.
       .col-12.col-lg-4
-        .bgr_3.h-100
+        .bgr_23.h-100
           img(src='@/assets/curso/tema4/t4-13.png' alt='AvatarTop')
           p.mb-0.p-4 Se ha comprobado que, cuando se recubren los implantes dentales de una capa de algún otro material como, por ejemplo, la hidroxiapatita, siempre hay una capa de óxido de titanio presente, lo cual asegura el éxito de la integración con la interfase metal-tejidos. 
           
@@ -229,7 +229,7 @@
       .col-12.col-lg-9
         ul.lista-ul--color.mb-0
           li.mb-0 
-            i.fas.fa-circle.fa-xs.clr_2.pst_4
+            i.fas.fa-circle.pst_5.clr_2.pst_4
             span #[strong Propiedades físicas y mecánicas:] hay seis tipos distintos de titanio disponibles como biomateriales para implantes. Entre estos seis materiales hay cuatro grados de titanio comercialmente puro (CpTi) y dos aleaciones de titanio (Ti). Las propiedades mecánicas y físicas de CpTi son diferentes y están relacionadas principalmente con los residuos de oxígeno en el metal. Las dos aleaciones son Ti-6Al-4V y Ti-6Al-4V-ELI (aleaciones intersticiales extrabajas). Los materiales de titanio comercialmente puros se denominan titanio puro de grado I, grado II, grado III y grado IV. El titanio comercialmente puro también se conoce como titanio sin alear y generalmente contiene algunos elementos: traza de carbono, oxígeno, nitrógeno y hierro. Estos oligoelementos mejoran notablemente las propiedades mecánicas del titanio puro y se encuentran en mayores cantidades desde el grado I hasta el grado IV. Ver tabla. 
 
     .titulo-sexto.color-acento-contenido
@@ -329,73 +329,73 @@
           p.mb-5 Es un metal (grupo de metales transitorios) en forma cristalina, que se obtiene del mineral circón en el que se encuentra en forma de silicato. El zirconio (también llamado zirconia) destaca por su color blanco, ser traslúcido, fácilmente maleable y altamente resistente, cualidades que lo hacen idóneo para la elaboración de acero y porcelana, lo que le ha valido para sustituir  las aleaciones y porcelanas anteriormente utilizadas, tanto en la ortodoncia como en las prótesis dentales.
       
       .row.mb-5.justify-content-center
-        .col-12.col-lg-4
-          figure
-            img(src='@/assets/curso/tema4/t4-15.png', alt='Texto que describa la imagen')
+        .col-12.col-lg-4.mb-3.mb-lg-0
+          figure.d-flex.justify-content-center
+            img.w-auto(src='@/assets/curso/tema4/t4-15.png', alt='Texto que describa la imagen')
         .col-12.col-lg-6
           p En el ámbito de la protésica dental el zirconio se utiliza en la fabricación de carillas, coronas y prótesis, tanto de una sola pieza sobre raíces naturales o implantes, como parciales o totales. Sus cualidades físicas y estéticas permiten la colocación de prótesis que destacan por ser más ligeras y tener una mayor dureza, resistencia y durabilidad, además de ofrecer una apariencia natural y luminosa que no se pierde aun cuando se retraiga la encía, ya que nunca será visible el metal, como ocurre con las prótesis hechas con otros metales. 
           p.text-bold Las propiedades físicas son: 
           ul.lista-ul--color.mb-0
             li.mb-0 
-              i.fas.fa-circle.fa-xs.clr_3.pst_4
+              i.fas.fa-circle.pst_5.clr_3.pst_4
               | Su punto de fusión es 1855 °C y su punto de ebullición es 4371 °C.
             li.mb-0 
-              i.fas.fa-circle.fa-xs.clr_3.pst_4
+              i.fas.fa-circle.pst_5.clr_3.pst_4
               | Organolépticamente es un metal duro, lustroso, de un color blanco plateado e inodoro.
             li.mb-0 
-              i.fas.fa-circle.fa-xs.clr_3.pst_4
+              i.fas.fa-circle.pst_5.clr_3.pst_4
               | A temperatura ambiente se encuentra en estado sólido.
             li.mb-0 
-              i.fas.fa-circle.fa-xs.clr_3.pst_4
+              i.fas.fa-circle.pst_5.clr_3.pst_4
               | Su densidad es de 6501 kg/m3.
             li.mb-0 
-              i.fas.fa-circle.fa-xs.clr_3.pst_4
+              i.fas.fa-circle.pst_5.clr_3.pst_4
               | Su dureza en la escala de Mohs es de 5.
             li.mb-0 
-              i.fas.fa-circle.fa-xs.clr_3.pst_4
+              i.fas.fa-circle.pst_5.clr_3.pst_4
               | Es un metal paramagnético.
             li.mb-0 
-              i.fas.fa-circle.fa-xs.clr_3.pst_4
+              i.fas.fa-circle.pst_5.clr_3.pst_4
               | El zirconio es superconductor por debajo de los -272,6 °C. Sus aleaciones con zinc son magnéticas por debajo de los -238,75 °C. En especial, el ZrZn2 exhibe superconductividad y ferromagnetismo al mismo tiempo.
             li.mb-0 
-              i.fas.fa-circle.fa-xs.clr_3.pst_4
+              i.fas.fa-circle.pst_5.clr_3.pst_4
               | Relativamente es un buen conductor térmico.
             li.mb-0 
-              i.fas.fa-circle.fa-xs.clr_3.pst_4
+              i.fas.fa-circle.pst_5.clr_3.pst_4
               | Baja sección eficaz en la captura de neutrones.
     
     .bg_grad-08
       .row.mb-5.p-4
-        .col-12.col-lg-8
+        .col-12.col-lg-8.mb-3.mb-lg-0
           p.text-bold Las propiedades químicas son: 
           ul.lista-ul--color.mb-0
             li.mb-0 
-              i.fas.fa-circle.fa-xs.clr_3.pst_4
+              i.fas.fa-circle.pst_5.clr_3.pst_4
               | Posee los estados de oxidación -2, 0, +1, +2, +3 y +4.
             li.mb-0 
-              i.fas.fa-circle.fa-xs.clr_3.pst_4
+              i.fas.fa-circle.pst_5.clr_3.pst_4
               | En la práctica no es reactivo a temperatura ambiente, porque forma una capa de óxido en su superficie, que lo vuelve pasivo y le da su brillo característico.
             li.mb-0 
-              i.fas.fa-circle.fa-xs.clr_3.pst_4
+              i.fas.fa-circle.pst_5.clr_3.pst_4
               | No es un metal tóxico.
             li.mb-0 
-              i.fas.fa-circle.fa-xs.clr_3.pst_4
+              i.fas.fa-circle.pst_5.clr_3.pst_4
               | Reacciona con las bases acuosas. Al rojo vivo reacciona con el oxígeno y el nitrógeno. A presión elevada reacciona con el oxígeno a temperatura ambiente.
             li.mb-0 
-              i.fas.fa-circle.fa-xs.clr_3.pst_4
+              i.fas.fa-circle.pst_5.clr_3.pst_4
               | Resiste la corrosión de bases alcalinas, ácidos, agua salada y otros agentes corrosivos.
             li.mb-0 
-              i.fas.fa-circle.fa-xs.clr_3.pst_4
+              i.fas.fa-circle.pst_5.clr_3.pst_4
               | Se disuelve en ácido fluorhídrico, y en ácido hidroclórico y sulfúrico, sobre todo si hay presencia de fluoruros.
             li.mb-0 
-              i.fas.fa-circle.fa-xs.clr_3.pst_4
+              i.fas.fa-circle.pst_5.clr_3.pst_4
               | Atómicamente está conformado por 40 electrones, 52 neutrones y 40 protones.
             li.mb-0 
-              i.fas.fa-circle.fa-xs.clr_3.pst_4
+              i.fas.fa-circle.pst_5.clr_3.pst_4
               | Su nube electrónica oscila en 5 niveles energéticos.
         .col-12.col-lg-4.d-flex.align-items-center
-          figure
-            img(src='@/assets/curso/tema4/t4-16.svg', alt='Texto que describa la imagen')
+          figure.d-flex.justify-content-center
+            img.w-auto(src='@/assets/curso/tema4/t4-16.svg', alt='Texto que describa la imagen')
     
       .row.justify-content-center
         .col-12.col-lg-8

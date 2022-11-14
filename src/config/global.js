@@ -477,6 +477,12 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
+        nombre: 'Daniel Ricardo Mutis Gómez',
+        cargo: 'Validación de maquetación',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
         nombre: 'Zuleidy María Ruíz Torres',
         cargo: 'Revisión guion audiovisual',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
