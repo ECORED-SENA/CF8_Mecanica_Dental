@@ -10,17 +10,17 @@
     p.mb-5 En la actualidad, se dispone para la elaboración de coronas dentales no solo de forma analógica sino de muchos sistemas para hacer restauraciones indirectas libres de metal, la mayor actualidad y uso es el denominado CAD-CAM, cuyo diseño y elaboración es asistida por un computador. Para la elaboración de una restauración por este método se deben seguir tres fases: 
 
     .tarjeta--container.row.mb-5
-      .col-md.tarjeta.bgr_5.h-100.p-4.p-lg-5.mb-3.mb-md-0
+      .col-md-4.tarjeta.bgr_5.h-100.p-4.p-lg-5.mb-3.mb-md-0
         figure.d-flex.justify-content-center.mb-3
-          img.w-auto(src='@/assets/curso/tema6/t6-1.svg', alt='Texto que describa la imagen')
+          img.img80(src='@/assets/curso/tema6/t6-1.svg', alt='Texto que describa la imagen')
         p.mb-0 <b>Digitalización</b> de la preparación dental obtenida por medio de un escáner.
-      .col-md.tarjeta.bgr.h-100.p-4.p-lg-5.mb-3.mb-md-0
+      .col-md-4.tarjeta.bgr.h-100.p-4.p-lg-5.mb-3.mb-md-0
         figure.d-flex.justify-content-center.mb-3
-          img.w-auto(src='@/assets/curso/tema6/t6-2.svg', alt='Texto que describa la imagen')
+          img.img80(src='@/assets/curso/tema6/t6-2.svg', alt='Texto que describa la imagen')
         p.mb-0 <b>Diseño</b> de la restauración lograda mediante un programa de computador.
-      .col-md.tarjeta.bgr_5.h-100.p-4.p-lg-5
+      .col-md-4.tarjeta.bgr_5.p-4.p-lg-5
         figure.d-flex.justify-content-center.mb-3
-          img.w-auto(src='@/assets/curso/tema6/t6-3.svg', alt='Texto que describa la imagen')
+          img.img80(src='@/assets/curso/tema6/t6-3.svg', alt='Texto que describa la imagen')
         p.mb-0 <b>Maquinado</b> de un bloque cerámico del cual se obtiene la restauración.
     
     .row.justify-content-center.mb-3

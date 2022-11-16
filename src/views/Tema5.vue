@@ -42,7 +42,7 @@
     
     p.mb-5 La estrecha relación entre el diente y la apófisis alveolar continúa durante toda la vida. La Ley de Wolf determina que el hueso se remodela en función de las fuerzas aplicadas. Cada vez que se modifica la función del hueso se produce un cambio definido en la arquitectura interna y en la configuración externa. El hueso necesita de estimulación para mantener su forma y densidad. Los dientes transmiten las fuerzas de compresión y tracción al hueso subyacente. Se han medido estas fuerzas como efecto piezoeléctrico en los cristales imperfectos de durapatita que componen la porción inorgánica del hueso. 
 
-    .row.bgr.justify-content-center.mb-5
+    .row.bgr.justify-content-center.mb-5.p-3.p-lg-0
       .col-12.col-lg-6.d-flex.align-items-center.mb-3.mb-lg-0
         div
           p Cuando se pierde un diente, la falta de estimulación del hueso residual origina una disminución de las trabéculas y de la densidad ósea en dicha zona, con pérdida de la anchura externa y luego de la altura del volumen óseo. La anchura del hueso disminuye en un 25 % durante el primer año después de la pérdida dentaria, y un total de 4 mm de altura durante este primer año, posterior a las extracciones realizadas para colocar una prótesis inmediata. 

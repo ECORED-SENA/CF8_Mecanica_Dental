@@ -59,10 +59,10 @@
     p.mb-5 Las prótesis dentosoportadas se clasifican en dos puentes y coronas. Los puentes son un tipo de prótesis fija que sustituye una edentación de más de un diente, para ello se tallan los dientes vecinos a la edentación y se elaboran dos coronas en los dientes pilares que sostienen al diente que se quiere reemplazar. Toman como pilares los dientes adyacentes a la brecha edéntula (sin dientes). Estos puentes a su vez se clasifican en:
 
     .row.mb-5.justify-content-center
-      .col-md-7.col-lg-5.col-xl-4.mb-3
+      .col-sm-9.col-md-7.col-lg-5.col-xl-4.mb-3
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
-          img.w-auto(src='@/assets/curso/tema3/t3-2.png' alt='AvatarTop' style='w.h-100')
+          img(src='@/assets/curso/tema3/t3-2.png' alt='AvatarTop')
           .tarjetas-up_card.bgr_5.p-4
             .title.d-flex.align-items-center.mb-4
               .bot.me-3
@@ -70,10 +70,10 @@
                 i.fas.fa-angle-down.fa-lg.color-primario
               h4.mb-0 El puente dental fijo tradicional 
             p Es aquel en el cual el odontólogo talla los dientes adyacentes al espacio edéntulo para colocar coronas en dichos pilares y en su parte media colocar la o las coronas que sustituyen los dientes perdidos.
-      .col-md-7.col-lg-5.col-xl-4.mb-3
+      .col-sm-9.col-md-7.col-lg-5.col-xl-4.mb-3
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
-          img(src='@/assets/curso/tema3/t3-3.png' alt='AvatarTop' style='width:400px')
+          img(src='@/assets/curso/tema3/t3-3.png' alt='AvatarTop')
           .tarjetas-up_card.bgr_5.p-4
             .title.d-flex.align-items-center.mb-4
               .bot.me-3
@@ -81,10 +81,10 @@
                 i.fas.fa-angle-down.fa-lg.color-primario
               h4.mb-0 El puente Maryland 
             p Es un tipo de puente dental fijo que sirve para sustituir la ausencia de una o dos piezas dentales en la boca de un paciente. Es una prótesis dental adhesiva, que se cementa en las caras posteriores de los dientes adyacentes al que se ha perdido.
-      .col-md-7.col-lg-5.col-xl-4.mb-3
+      .col-sm-9.col-md-7.col-lg-5.col-xl-4.mb-3
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
-          img(src='@/assets/curso/tema3/t3-4.png' alt='AvatarTop' style='width:400px')
+          img(src='@/assets/curso/tema3/t3-4.png' alt='AvatarTop')
           .tarjetas-up_card.bgr_5.p-4
             .title.d-flex.align-items-center.mb-4
               .bot.me-3
