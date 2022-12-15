@@ -411,7 +411,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/URmH4MRu5MQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mb-5 Durante la manipulación de los materiales dentales es importante apoyarse en la información que proporcionan las fichas técnicas que los proveedores facilitan, para identificar no solo los tiempos de trabajo o de manipulación sino también por la adhesión mecánica que es producida por el contacto de la porcelana con una superficie texturizada (con microrugosidades) hechas por partículas de óxido de aluminio lanzadas desde un arenador. Además, el arenado elimina irregularidades superficiales que concentran estrés. Es un mecanismo que guarda mucha similitud con el sistema adhesivo en superficies dentales grabadas con ácido.
 
