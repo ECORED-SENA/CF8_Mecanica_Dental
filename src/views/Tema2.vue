@@ -257,7 +257,7 @@
             .col-12.col-lg-9.d-flex.align-items-center
               div.pe-3.py-3
                 h4 La masticación:
-                p.mb-0 Su importancia es que se refiere al proceso que se da ,porque para poder realizar una buena deglución es necesario que se corte, desgarre y trituren los alimentos. 
+                p.mb-0 Su importancia es que se refiere al proceso que se da, porque para poder realizar una buena deglución es necesario que se corte, desgarre y trituren los alimentos. 
 
     separador
 

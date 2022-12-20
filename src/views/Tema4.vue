@@ -72,7 +72,7 @@
             li.mb-0.bg_grad-03 
               i.fas.fa-tooth.clr_2.ms-3.pst_2
               h3.clr_2 Cerámica feldespática
-          p.mb-5 El tipo tradicional de cerámica dental es a base de feldespato, compuesto por una cantidad significativa de feldespato (KAlSi 3O8), cuarzo (SiO2) y caolín (Al2O3 ·2SiO2 ·2H2O). El feldespato es un mineral cristalino grisáceo que se encuentra en rocas ricas en hierro y mica. Las rocas de feldespato se muelen y, después de usar imanes potentes para eliminar los compuestos de hierro, se muelen para obtener el polvo más puro. El cuarzo o sílice (SiO2) es el componente de la matriz (55–65  %) responsable de la translucidez de la restauración. Como no es un material fuerte, 20-25 % de alúmina (Al2O3) se añade como componente de refuerzo. El caolín es un silicato de aluminio hidratado que se usa en una cantidad limitada (4 %) ya que tiene propiedades opacas, a diferencia de los dientes humanos que son translúcidos. Se utiliza en la composición de la cerámica dental, ya que une las partículas de cerámica suelta. 
+          p.mb-5 El tipo tradicional de cerámica dental es a base de feldespato, compuesto por una cantidad significativa de feldespato (KAlSi <sub>3</sub>O<sub>8</sub>), cuarzo (SiO<sub>2</sub>) y caolín (Al<sub>2</sub>O<sub>3</sub> ·2SiO<sub>2</sub> ·2H<sub>2</sub>O). El feldespato es un mineral cristalino grisáceo que se encuentra en rocas ricas en hierro y mica. Las rocas de feldespato se muelen y, después de usar imanes potentes para eliminar los compuestos de hierro, se muelen para obtener el polvo más puro. El cuarzo o sílice (SiO<sub>2</sub>) es el componente de la matriz (55–65%) responsable de la translucidez de la restauración. Como no es un material fuerte, 20-25% de alúmina (Al<sub>2</sub>O<sub>3</sub>) se añade como componente de refuerzo. El caolín es un silicato de aluminio hidratado que se usa en una cantidad limitada (4%) ya que tiene propiedades opacas, a diferencia de los dientes humanos que son translúcidos. Se utiliza en la composición de la cerámica dental, ya que une las partículas de cerámica suelta. 
       
       .row.justify-content-center  
         .col-12.col-lg-8  
@@ -85,15 +85,15 @@
             li.mb-0.bg_grad-03 
               i.fas.fa-tooth.clr_2.ms-3.pst_2
               h3.clr_2 La cerámica reforzada con leucita
-          p.mb-5 consta de cristales de leucita (35–45 % en volumen) que se distribuyen homogéneamente en la matriz vítrea. Los cristales de leucita se crean mediante la cocción controlada de feldespato a 1150°C. El silicato de aluminio y potasio se desintegra en leucita y dos moléculas de sílice:
+          p.mb-5 consta de cristales de leucita (35–45% en volumen) que se distribuyen homogéneamente en la matriz vítrea. Los cristales de leucita se crean mediante la cocción controlada de feldespato a 1150°C. El silicato de aluminio y potasio se desintegra en leucita y dos moléculas de sílice:
 
       .row.justify-content-center.mb-5
         .col-12.col-lg-8  
           .bgr_18.p-4
             h1.mb-0.text-center.clr_2 K<sub>2</sub>O-Al<sub>2</sub>O<sub>3</sub> -6SiO<sub>2</sub> → K<sub>2</sub>O-Al<sub>2</sub>O<sub>3</sub> - 4SiO<sub>2</sub> + 2SiO<sub>2</sub>
     
-    p La proporción de los cristales de leucita en la fase cristalina puede variar desde el 22 al 50 % en estas porcelanas, en tanto que la fase vítrea está formada de un vidrio de aluminio silicato. Las diferencias entre estos porcentajes del contenido de leucita pueden estar inducidas por diversos factores que incluyen: múltiples cocciones de la porcelana, tratamientos térmicos, enfriamientos, e inclusive, las largas exposiciones a la saliva hacen que la porcelana madure y contenga mayor porcentaje de leucita.
-    p.mb-5 Trabajos de investigación demuestran que un porcentaje de leucita entre el 20 al 30 % es capaz de mejorar las propiedades mecánicas de esta porcelana, mientras que a mayor porcentaje, entre el 30 y 50 %, dichas propiedades no aumentan significativamente. 
+    p La proporción de los cristales de leucita en la fase cristalina puede variar desde el 22 al 50% en estas porcelanas, en tanto que la fase vítrea está formada de un vidrio de aluminio silicato. Las diferencias entre estos porcentajes del contenido de leucita pueden estar inducidas por diversos factores que incluyen: múltiples cocciones de la porcelana, tratamientos térmicos, enfriamientos, e inclusive, las largas exposiciones a la saliva hacen que la porcelana madure y contenga mayor porcentaje de leucita.
+    p.mb-5 Trabajos de investigación demuestran que un porcentaje de leucita entre el 20 al 30% es capaz de mejorar las propiedades mecánicas de esta porcelana, mientras que a mayor porcentaje, entre el 30 y 50%, dichas propiedades no aumentan significativamente. 
 
     .row.mb-5.justify-content-center
       .col-12.col-lg-10
@@ -122,7 +122,7 @@
               p.mb-0 Na<sub>2</sub>O
               p.mb-0 K<sub>2</sub>O
               p.mb-0 CaO
-              p.mb-0 Tio<sub>2</sub>
+              p.mb-0 TiO<sub>2</sub>
               p.mb-0 pigmentos
             td 56-64
               p.mb-0 20-23
@@ -143,7 +143,7 @@
               p.mb-0 Na<sub>2</sub>O
               p.mb-0 BaO, CaO
               p.mb-0 CeO<sub>2</sub>, B<sub>2</sub>O<sub>3</sub>
-              p.mb-0 Tio<sub>2</sub>
+              p.mb-0 TiO<sub>2</sub>
               p.mb-0 pigmentos
             td 60,0-65,0
               p.mb-0 16,0-20,0
@@ -165,7 +165,7 @@
             ul.lista-ul--color.mb-0
               li.mb-0 
                 i.fas.fa-circle.pst_5.clr_2.pst_4
-                span.clr_4 <b>Propiedades químicas:</b> debido a que la cerámica está compuesta por óxidos, no es propensa a la oxidación, es resistente a la humedad, al agua de lluvia y a sustancias químicas del suelo, así mismo, resiste el ataque de ácidos minerales fuertes como el clorhídrico, sulfúrico y nítrico, y solos ácidos fluorhídrico y fosfórico la afectan, al igual que los álcalis corrosivos. Estas propiedades hacen de la cerámica un material indestructible, con una resistencia química extraordinariamente alta.
+                span.clr_4 <b>Propiedades químicas:</b> debido a que la cerámica está compuesta por óxidos, no es propensa a la oxidación, es resistente a la humedad, al agua de lluvia y a sustancias químicas del suelo, así mismo, resiste el ataque de ácidos minerales fuertes como el clorhídrico, sulfúrico y nítrico, y solo ácidos fluorhídrico y fosfórico la afectan, al igual que los álcalis corrosivos. Estas propiedades hacen de la cerámica un material indestructible, con una resistencia química extraordinariamente alta.
       .col-md.tarjeta.bgr_5.p-3.p-lg-5
         .row.justify-content-center.mb-4
           .col-6.mb-3
@@ -207,7 +207,7 @@
          ul.lista-ul--color.mb-0
             li.mb-0 
               i.fas.fa-circle.pst_5.clr_2.pst_4
-              span #[strong Propiedades químicas:] el titanio es un metal que tiende a combinarse con el oxígeno, con el que forma una pátina de óxido, razón por la cual es tan resistente a la temperatura ambiente, a la corrosión, mediante el fenómeno conocido como pasivación, que protege  la masa del metal. De los óxidos de titanio que tienden a formarse, el que lo hace en mayor medida es el TiO2 y también el TiO y el Ti2O3. A altas temperaturas el titanio tiende a combinarse, no solo con el oxígeno, sino también con otros elementos como el nitrógeno, el hidrógeno y el carbono. Por ello, cuando se cuela en el laboratorio dental hay que hacerlo en atmósfera de gas inerte o en condiciones de vacío controlado. Otras propiedades químicas son: 
+              span #[strong Propiedades químicas:] el titanio es un metal que tiende a combinarse con el oxígeno, con el que forma una pátina de óxido, razón por la cual es tan resistente a la temperatura ambiente, a la corrosión, mediante el fenómeno conocido como pasivación, que protege  la masa del metal. De los óxidos de titanio que tienden a formarse, el que lo hace en mayor medida es el TiO<sub>2</sub> y también el TiO y el Ti<sub>2</sub>O<sub>3</sub>. A altas temperaturas el titanio tiende a combinarse, no solo con el oxígeno, sino también con otros elementos como el nitrógeno, el hidrógeno y el carbono. Por ello, cuando se cuela en el laboratorio dental hay que hacerlo en atmósfera de gas inerte o en condiciones de vacío controlado. Otras propiedades químicas son: 
     .row.mb-5 
       .col-12.col-lg-4.mb-3.mb-lg-0
         .bgr_23.h-100

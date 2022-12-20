@@ -141,7 +141,7 @@
 
     .bg_grad-06
       #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-        h2 3.2 Implantosoporta
+        h2 3.2 Implantosoportada
       
       p.mb-5 Es una restauración protésica fija, que reemplaza uno o varios dientes y va soportada de los implantes dentales. En el siguiente recurso se puede conocer más de esta prótesis: 
 
@@ -174,7 +174,7 @@
                 span.clr_4 <b>Implante subperiosteal:</b> estos consisten en una especie de montura que se coloca en los huesos maxilares justo debajo de la encía. Con la cicatrización de las encías la montura se fija al hueso maxilar. Los postes que se colocan en la montura sobresalen a través de las encías. Al igual que con los implantes endostiales, los dientes artificiales se colocan sobre esos postes.
     
     p Las ventajas de usar una prótesis implantosoportada se pueden observar en el siguiente recurso: 
-    P.mb-5 Las prótesis implantosoportadas sobre implantes que brindan una estabilidad excepcional al comer y al hablar, y funcionan como los dientes naturales. Los beneficios de las prótesis proporcionadas  son que pueden ayudar a experimentar una mayor confianza y una mejor calidad de vida. 
+    P.mb-5 Las prótesis implantosoportadas son implantes que brindan una estabilidad excepcional al comer y al hablar, y funcionan como los dientes naturales. Los beneficios de las prótesis proporcionadas  son que pueden ayudar a experimentar una mayor confianza y una mejor calidad de vida. 
 
     .row
       .col-12.col-lg-7.mb-3.mb-lg-0

@@ -7,7 +7,7 @@
         span 1
       h1 Normativa nacional para los laboratorios de mecánica dental
     
-    p.mb-5 A partir de diciembre de 2021 en Colombia empieza a regir la normativa para los técnicos y los laboratorios dentales, a cargo del Instituto Nacional de Vigilancia de Medicamentos y Alimentos (INVIMA). La entidad que regula a nivel nacional es el Ministerio de Salud y Protección Social, a partir de sus facultades legales, en especial a las conferidas por los Artículos 245 de la Ley 100 de 1993,numeral 8 de la Ley 1618 de 2013, 1° parágrafo del Decreto 4725 de 2005 y el Artículo 45 de la Ley 1437 de 2011 en los que se menciona la información que se presenta en el siguiente recurso: 
+    p.mb-5 A partir de diciembre de 2021 en Colombia empieza a regir la normativa para los técnicos y los laboratorios dentales, a cargo del Instituto Nacional de Vigilancia de Medicamentos y Alimentos (INVIMA). La entidad que regula a nivel nacional es el Ministerio de Salud y Protección Social, a partir de sus facultades legales, en especial a las conferidas por los Artículos 245 de la Ley 100 de 1993, numeral 8 de la Ley 1618 de 2013, 1° parágrafo del Decreto 4725 de 2005 y el Artículo 45 de la Ley 1437 de 2011 en los que se menciona la información que se presenta en el siguiente recurso: 
   
     .row.mb-5.justify-content-center
       .col-auto.mb-3.mb-lg-0
@@ -177,7 +177,7 @@
     separador
 
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.3 Equipamiento 
+      h2 1.3 Talento humano 
     
     p.mb-5 Los establecimientos deberán contar con un director técnico y con personal técnico, quienes deben hacer uso de los elementos de seguridad en el trabajo en concordancia con el Sistema de gestión de salud y seguridad en el trabajo. A continuación se mencionan los perfiles y las responsabilidades.
 
